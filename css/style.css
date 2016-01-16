@@ -12,6 +12,19 @@ font-family: 'Noto Sans', sans-serif;
 	padding: 1.8em;
 	line-height: 1.6em;
 	font-size: 1.3em;
-
-
 }
+#sites{
+background-image: ("palpatine.jpg");
+}
+#costs{
+background-image: url("squad.jpg");
+}
+#academics{
+background-image: url("terracina.jpg");
+}
+#apply{
+background-image: url("walkway.jpg");
+}
+.o-bar:hover{
+	width: 10%;
+	}
