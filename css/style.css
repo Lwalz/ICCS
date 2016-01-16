@@ -1,4 +1,17 @@
-img {
+#banner{
 	padding: 3em;
 	width: 100%;
+}
+body{
+font-family: 'Noto Sans', sans-serif;
+}
+#info-bar{
+	color: white;
+	background-color: #82c0c0;
+	text-align: center;
+	padding: 1.8em;
+	line-height: 1.6em;
+	font-size: 1.3em;
+
+
 }
