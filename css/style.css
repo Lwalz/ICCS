@@ -15,16 +15,24 @@ font-family: 'Noto Sans', sans-serif;
 }
 #sites{
 background-image: url(../images/palpatine.jpg);
+background-repeat:no-repeat;
+background-size:100%;
 }
 #costs{
 background-image: url(../images/squad.jpg);
+background-repeat:no-repeat;
+background-size:100%;
 }
 #academics{
 background-image:url(../images/terracina.jpg);
+background-repeat:no-repeat;
+background-size:100%;
 }
 
 #apply{
 background-image: url(../images/walkway.jpg);
+background-repeat:no-repeat;
+background-size:100%;
 }
 p:hover {
 	font-size: 120%;
@@ -33,7 +41,7 @@ p:hover {
 .o-bar{
 	color: white;
 	font-size: 4em;
-	height: 4em;
+	height: 2.8em;
 }
 #sites>p{
 	float: right;
@@ -55,14 +63,6 @@ p:hover {
 	padding-left: .2em;
 	padding-top: 1em;
 }
-
-@media (min-width:800px){
-.o-bar {
-	width: 100%;
-}
-.o-bar>img {
-	width: 100%;
-}
 #foot{
 	background-color: #82c0c0;
 	text-align: center;
@@ -82,7 +82,7 @@ p:hover {
 
 }
 #nothing{
-	height: 16em;
+	height: 15.2em;
 }
 
 
