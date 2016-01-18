@@ -13,6 +13,7 @@ body, div, section, p, head{
 }
 body{
 font-family: 'Noto Sans', sans-serif;
+background-color: #82c0c0;
 }
 #info-bar{
 	color: white;
@@ -82,7 +83,8 @@ p:hover {
 	position: fixed;
 	bottom: 0;
 	z-index: 999999;
-	height: 10em;
+	height: 12em;
+	padding: .6em;
 }
 .footer{	
 	position: relative;
@@ -93,16 +95,22 @@ p:hover {
 	width: 50%;
 	float: left;
 	padding-top: 1em;
+	padding-bottom: .7em;
+	line-height: 1.2em;
+
 }
 #dos{
 	width: 50%;
 	float: left;
 	padding-top: 1em;
+	padding-bottom: .7em;
+	line-height: 1.2em;
 }
 #container{
-	margin-bottom: 7em;
-
+	margin-bottom: 10em;
 }
-
+#top-banner{
+	background-color: white;
+}
 
 
