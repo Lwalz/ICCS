@@ -76,13 +76,13 @@ p:hover {
 	background-color: #82c0c0;
 	text-align: center;
 	color: white;
-	font-size: .9em;
+	font-size: .5em;
 	width: 100%;
 	float:left;
 	position: fixed;
 	bottom: 0;
 	z-index: 999999;
-	height: 17em;
+	height: 15em;
 }
 .footer{	
 	position: relative;
@@ -90,7 +90,7 @@ p:hover {
 	width: 100%
 }
 #container{
-	margin-bottom: 15em;
+	margin-bottom: 7em;
 
 }
 
