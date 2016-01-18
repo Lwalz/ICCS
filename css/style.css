@@ -114,3 +114,81 @@ p:hover {
 }
 
 
+
+@media (min-width:750px){
+#carousel1 {
+	display: none;
+
+}
+#info-bar{
+	display: none;
+}
+.o-bar{
+	width: 25%;
+	float: left;
+	font-size: 2em;
+	vertical-align: center;
+
+}
+#sites{
+	background-image: none;
+	margin: auto;
+}
+#apply{
+	background-image: none;
+	margin: auto;
+}
+#academics{
+	background-image: none;
+	margin: auto;
+}
+#costs{
+	background-image: none;
+	margin: auto;
+}
+#sites>p{
+	text-align: center;
+	margin: auto;
+	float: none;
+}
+#apply>p{
+	text-align: center;
+	margin: auto;
+	float: none;
+}
+#academics>p{
+	text-align: center;
+	margin: auto;
+	float: none;
+}
+#costs>p{
+	text-align: center;
+	margin: auto;
+	float: none;
+}
+#container{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 10em;
+}
+#top-banner{
+	background-color: none;
+	background-image: url(../images/DSC_0282.jpg);
+	margin: auto;
+	width: 100%;
+	background-repeat:no-repeat;
+	background-size:100%;
+	height: 40em;
+}
+#banner{
+	margin: auto;
+	width: 100%;
+	background-color: none;
+	padding-top: 15em;
+}
+#banner>img{
+	width: 50%;
+}
+
+}
