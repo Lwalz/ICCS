@@ -14,17 +14,42 @@ font-family: 'Noto Sans', sans-serif;
 	font-size: 1.3em;
 }
 #sites{
-background-image: ("palpatine.jpg");
+background-image: url(../images/palpatine.jpg);
+width: 100%;
 }
 #costs{
-background-image: url("squad.jpg");
+background-image: url(../images/squad.jpg);
 }
 #academics{
-background-image: url("terracina.jpg");
+background-image:url(../images/terracina.jpg);
 }
+
 #apply{
-background-image: url("walkway.jpg");
+background-image: url(../images/walkway.jpg);
 }
-.o-bar:hover{
-	width: 10%;
-	}
+p:hover {
+	font-size: 150%;
+	-webkit-transition: ease-in-out;
+}
+.o-bar{
+	color: white;
+	font-size: 5em;
+	width: 100%;
+	height: 5em; 
+}
+#sites>p{
+	float: right;
+	padding: 1em;
+}
+#academics>p{
+	float: right;
+	padding: 1em;
+}
+#costs>p{
+	float: left;
+	padding: 1em;
+}
+#apply>p{
+	float: left;
+	padding: 1em;
+}
