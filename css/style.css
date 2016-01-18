@@ -15,7 +15,6 @@ font-family: 'Noto Sans', sans-serif;
 }
 #sites{
 background-image: url(../images/palpatine.jpg);
-width: 100%;
 }
 #costs{
 background-image: url(../images/squad.jpg);
@@ -34,22 +33,52 @@ p:hover {
 .o-bar{
 	color: white;
 	font-size: 5em;
-	width: 100%;
-	height: 5em; 
+	height: 4em;
 }
 #sites>p{
 	float: right;
-	padding: 1em;
+	padding: .7em;
 }
 #academics>p{
 	float: right;
-	padding: 1em;
+	padding: .7em;
 }
 #costs>p{
 	float: left;
-	padding: 1em;
+	padding: .7em;
 }
 #apply>p{
 	float: left;
-	padding: 1em;
+	padding: .7em;
 }
+
+@media (min-width:800px){
+.o-bar {
+	width: 100%;
+}
+.o-bar>img {
+	width: 100%;
+}
+#foot{
+	background-color: #82c0c0;
+	text-align: center;
+	color: white;
+	font-size: .9em;
+	padding: 2em;
+	width: 100%;
+	float:left;
+	position: fixed;
+	bottom: 0;
+	z-index: 999999;
+}
+.footer{	
+	position: relative;
+	margin: 0 auto;
+	width: 100%
+
+}
+#nothing{
+	height: 16em;
+}
+
+
