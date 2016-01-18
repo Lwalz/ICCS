@@ -1,3 +1,12 @@
+body, div, section, p, head{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+
 #banner{
 	padding: 3em;
 	width: 100%;
@@ -35,7 +44,7 @@ background-repeat:no-repeat;
 background-size:100%;
 }
 p:hover {
-	font-size: 120%;
+	font-size: 110%;
 	-webkit-transition: ease-in-out;
 }
 .o-bar{
@@ -68,21 +77,22 @@ p:hover {
 	text-align: center;
 	color: white;
 	font-size: .9em;
-	padding: 2em;
 	width: 100%;
 	float:left;
 	position: fixed;
 	bottom: 0;
 	z-index: 999999;
+	height: 17em;
 }
 .footer{	
 	position: relative;
 	margin: 0 auto;
 	width: 100%
+}
+#container{
+	margin-bottom: 15em;
 
 }
-#nothing{
-	height: 15.2em;
-}
+
 
 
