@@ -77,7 +77,7 @@ p:hover {
 	padding-top: 1em;
 }
 #foot{
-	background-color: #82c0c0;
+	background-color: #3f3f3f;
 	color: white;
 	font-size: .8em;
 	width: 100%;
@@ -91,7 +91,7 @@ p:hover {
 .footer{	
 	position: relative;
 	margin: 0 auto;
-	width: 100%
+	width: 100%;
 }
 #uno{
 	width: 50%;
@@ -99,6 +99,7 @@ p:hover {
 	padding-top: 1em;
 	padding-bottom: .7em;
 	line-height: 1.2em;
+	text-align: left;
 
 }
 #dos{
@@ -107,6 +108,7 @@ p:hover {
 	padding-top: 1em;
 	padding-bottom: .7em;
 	line-height: 1.2em;
+	text-align: right;
 }
 #container{
 	margin-bottom: 10em;
@@ -277,7 +279,7 @@ p:hover{
 }
 .footer{	
 	position: relative;
-	margin: 2em;
+	margin-top: 2em;
 	width: 100%;
 }
 #doit{
@@ -285,15 +287,21 @@ p:hover{
 	width: 100%;
 	background-size: 100%;
 	float: left;
-	height: 30em;
+	height: 3em;
 	background-repeat:no-repeat;
 	color: white;
 	font-size: 7em;
+	padding-top: none;
 	text-align: center;
-	padding-top: .8em;
 }
 #doit>p{
 	border-style: solid;
 	border-color: white;
+	border-collapse:collapse; 
+	margin-right:2.5em;
+	margin-left:2.5em;
+	margin-top: .4em;
+	margin-bottom: 2.8em;
+	text-align: center;
 }
 }
