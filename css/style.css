@@ -270,15 +270,15 @@ p:hover{
 	width: 100%;
 	float:left;
 	position: relative;
-	bottom: none;
-	z-index: none;
-	height: 10em;
+	bottom:3em; 
+	z-index: 5em;
+	height: 5em;
 	padding: .6em;
 }
 .footer{	
 	position: relative;
-	margin: none;
-	width: 100%
+	margin: 2em;
+	width: 100%;
 }
 #doit{
 	background-image: url(../images/sicily.jpg);
