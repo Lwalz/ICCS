@@ -78,7 +78,6 @@ p:hover {
 }
 #foot{
 	background-color: #82c0c0;
-	text-align: center;
 	color: white;
 	font-size: .8em;
 	width: 100%;
@@ -137,7 +136,7 @@ body{
 	color:#82c0c0;
 	float: left;
 	text-align: center;
-	font-size: 3em;
+	font-size: 1.5em;
 	padding-left: 3em;
 	padding-right: 3em;
 	padding-top: 1em;
