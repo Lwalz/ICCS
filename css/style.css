@@ -3,10 +3,6 @@ body, div, section, p, head{
 	padding: 0;
 
 }
-
-
-
-
 #banner{
 	padding: 3em;
 	width: 100%;
@@ -41,7 +37,6 @@ background-image:url(../images/terracina.jpg);
 background-repeat:no-repeat;
 background-size:100%;
 }
-
 #apply{
 background-image: url(../images/walkway.jpg);
 background-repeat:no-repeat;
