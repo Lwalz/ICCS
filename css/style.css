@@ -111,7 +111,9 @@ p:hover {
 #top-banner{
 	background-color: white;
 }
-
+#doit{
+	display: none;
+}
 
 
 @media (min-width:750px){
