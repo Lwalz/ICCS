@@ -53,22 +53,22 @@ background-size:100%;
 }
 #apply>p{
 	float: right;
-	padding-right: .4em;
+	padding-right: .3em;
 	padding-top: .8em;
 }
 #academics>p{
 	float: left;
-	padding-left: .4em;
+	padding-left: .3em;
 	padding-top: .8em;
 }
 #sites>p{
 	float: right;
-	padding-right: .4em;
+	padding-right: .3em;
 	padding-top: .8em;
 }
 #costs>p{
 	float: left;
-	padding-left: .4em;
+	padding-left: .3em;
 	padding-top: .8em;
 }
 #foot{
