@@ -24,6 +24,10 @@ background-color: #82c0c0;
 	line-height: 1.6em;
 	font-size: 1.1em;
 }
+#info-text{
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+}
 #info-bar2{
 	display: none;
 }
@@ -66,6 +70,8 @@ background-size:100%;
 	padding-top: .8em;
 	text-decoration: none;
 	color: white;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
 }
 #academicsa{
 	float: left;
@@ -73,6 +79,8 @@ background-size:100%;
 	padding-top: .8em;
 	text-decoration: none;
 	color: white;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
 }
 #sitesa{
 	float: right;
@@ -80,6 +88,8 @@ background-size:100%;
 	padding-top: .8em;
 	text-decoration: none;
 	color: white;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
 }
 #costsa{
 	float: left;
@@ -87,6 +97,8 @@ background-size:100%;
 	padding-top: .8em;
 	text-decoration: none;
 	color: white;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
 }
 #foot{
 	background-color: #3f3f3f;
