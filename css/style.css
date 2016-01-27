@@ -229,16 +229,22 @@ body{
 	margin: auto;
 	width: 100%;
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
 	float: left;
+	height: 40em;
+	display: flex;
+	justify-content: center;
 }
 #banner{
+	display: flex;
 	width: 50%;
 	background-color: none;
-	padding-top: 25em;
+	justify-content: center;
+	align-self: center;
+	/*padding-top: 25em;
 	padding-bottom: 5em;
 	float: left;
-	margin-left: 15em;
+	margin-left: 17em;*/
 
 }
 /*p:hover{
