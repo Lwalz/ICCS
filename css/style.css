@@ -22,54 +22,54 @@ background-color: #82c0c0;
 #info-bar2{
 	display: none;
 }
-#sites{
+#apply{
 background-image: url(../images/palpatine.jpg);
 background-repeat:no-repeat;
 background-size:100%;
 }
-#costs{
-background-image: url(../images/squad.jpg);
-background-repeat:no-repeat;
-background-size:100%;
-}
 #academics{
-background-image:url(../images/terracina.jpg);
+background-image:url(../images/squad.jpg);
 background-repeat:no-repeat;
 background-size:100%;
 }
-#apply{
+#sites{
+background-image: url(../images/terracina.jpg);
+background-repeat:no-repeat;
+background-size:100%;
+}
+#costs{
 background-image: url(../images/walkway.jpg);
 background-repeat:no-repeat;
 background-size:100%;
 }
-p:hover {
+/*p:hover {
 	font-size: 110%;
 	-webkit-transition: ease-in-out;
-}
+}*/
 .o-bar{
 	color: white;
 	font-size: 4em;
 	height: 2.8em;
 }
+#apply>p{
+	float: right;
+	padding-right: .2em;
+	padding-top: .8em;
+}
+#academics>p{
+	float: left;
+	padding-left: .2em;
+	padding-top: .8em;
+}
 #sites>p{
 	float: right;
 	padding-right: .2em;
-	padding-top: 1em;
-}
-#academics>p{
-	float: right;
-	padding-right: .2em;
-	padding-top: 1em;
+	padding-top: .8em;
 }
 #costs>p{
 	float: left;
 	padding-left: .2em;
-	padding-top: 1em;
-}
-#apply>p{
-	float: left;
-	padding-left: .2em;
-	padding-top: 1em;
+	padding-top: .8em;
 }
 #foot{
 	background-color: #3f3f3f;
