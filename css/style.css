@@ -24,21 +24,25 @@ background-color: #82c0c0;
 }
 #apply{
 background-image: url(../images/palpatine.jpg);
+background-position: top;
 background-repeat:no-repeat;
 background-size:100%;
 }
 #academics{
 background-image:url(../images/squad.jpg);
+background-position: center;
 background-repeat:no-repeat;
 background-size:100%;
 }
 #sites{
 background-image: url(../images/terracina.jpg);
+background-position: bottom;
 background-repeat:no-repeat;
 background-size:100%;
 }
 #costs{
 background-image: url(../images/walkway.jpg);
+background-position: bottom;
 background-repeat:no-repeat;
 background-size:100%;
 }
