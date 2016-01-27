@@ -84,7 +84,7 @@ background-size:100%;
 	position: fixed;
 	bottom: 0;
 	z-index: 999999;
-	height: 7em;
+	height: 6em;
 	padding: .6em;
 }
 .footer{	
@@ -110,7 +110,7 @@ background-size:100%;
 	text-align: right;
 }
 #container{
-	margin-bottom: 5.5em;
+	margin-bottom: 4.5em;
 }
 #top-banner{
 	background-color: white;
