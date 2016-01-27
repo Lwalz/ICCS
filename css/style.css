@@ -111,6 +111,8 @@ background-size:100%;
 	z-index: 999999;
 	height: 6em;
 	padding: .6em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
 }
 .footer{	
 	position: relative;
