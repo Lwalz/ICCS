@@ -237,7 +237,7 @@ body{
 }
 #banner{
 	display: flex;
-	width: 50%;
+	width: 65%;
 	background-color: none;
 	justify-content: center;
 	align-self: center;
