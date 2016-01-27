@@ -139,7 +139,7 @@ body{
 	color:#82c0c0;
 	float: left;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	padding-left: 6em;
 	padding-right: 6em;
 	padding-top: 1em;
@@ -154,9 +154,25 @@ body{
 .o-bar{
 	width: 25%;
 	float: left;
-	font-size: 3em;
+	font-size: 2em;
 	background-color: #82c0c0;
 	height: 2em;
+}
+#apply{
+	background-image: none;
+	margin: auto;
+	border-style: hidden;
+	border-color: white;
+	padding-top: 0;
+	border-radius: .01em;
+}
+#academics{
+	background-image: none;
+	margin: auto;
+	border-style: hidden;
+	border-color: white;
+	padding-top: 0;
+	border-radius: .01em;
 }
 #sites{
 	background-image: none;
@@ -166,24 +182,6 @@ body{
 	padding-top: 0;
 	border-radius: .01em;
 }
-#apply{
-	background-image: none;
-	margin: auto;
-	border-style: hidden;
-	border-color: white;
-	padding-top: 0;
-	border-radius: .01em;
-
-}
-#academics{
-	background-image: none;
-	margin: auto;
-	border-style: hidden;
-	border-color: white;
-	padding-top: 0;
-	border-radius: .01em;
-
-}
 #costs{
 	background-image: none;
 	margin: auto;
@@ -192,7 +190,6 @@ body{
 	border-color: white;
 	padding-top: none;
 	border-radius: .01em;
-
 }
 #sites>p{
 	text-align: center;
@@ -222,7 +219,8 @@ body{
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 30em;
+	margin-bottom: 0;
+	/*height: 30em;*/
 	background-color: #82c0c0;
 }
 #top-banner{
@@ -243,28 +241,28 @@ body{
 	margin-left: 15em;
 
 }
-p:hover{
+/*p:hover{
 	font-size: 100%;
-}
+}*/
 #sites:hover{
 	background-color: white;
 	color: #82c0c0;
-	border-style: solid;
+	/*border-style: solid;*/
 }
 #costs:hover{
 	background-color: white;
 	color: #82c0c0;
-	border-style: solid;
+	/*border-style: solid;*/
 }
 #academics:hover{
 	background-color: white;
 	color: #82c0c0;
-	border-style: solid;
+	/*border-style: solid;*/
 }
 #apply:hover{
 	background-color: white;
 	color: #82c0c0;
-	border-style: solid;
+	/*border-style: solid;*/
 }
 #foot{
 	background-color: #3f3f3f;
@@ -273,26 +271,29 @@ p:hover{
 	width: 100%;
 	float:left;
 	position: relative;
-	bottom:3em; 
+	/*bottom:3em; */
 	z-index: 5em;
-	height: 5em;
+	/*height: 5em;*/
 	padding: .6em;
 }
 .footer{	
 	position: relative;
-	margin-top: 2em;
+	margin-top: 0;
 	width: 100%;
 }
+
 #doit{
+	display: block;
 	background-image: url(../images/sicily.jpg);
 	width: 100%;
-	background-size: 100%;
+	background-size: cover;
+	/*background-position: bottom;*/
 	float: left;
 	height: 3em;
 	background-repeat:no-repeat;
 	color: white;
 	font-size: 7em;
-	padding-top: none;
+	padding-top: 0;
 	text-align: center;
 }
 #doit>p{
@@ -301,8 +302,8 @@ p:hover{
 	border-collapse:collapse; 
 	margin-right:2.5em;
 	margin-left:2.5em;
-	margin-top: .4em;
-	margin-bottom: 2.8em;
+	margin-top: .7em;
+	margin-bottom: .4em;
 	text-align: center;
 }
 }
