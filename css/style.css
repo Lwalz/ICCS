@@ -1,4 +1,4 @@
-body, div, section, p, head{
+body, div, section, p, head, a{
 	margin: 0;
 	padding: 0;
 
@@ -201,8 +201,9 @@ body{
 	font-family: "Helvetica light", sans-serif;
 	font-weight: 100;
 }
-#apply{
+#about{
 	background-image: none;
+	color: white;
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -211,6 +212,7 @@ body{
 }
 #academics{
 	background-image: none;
+	color: white;
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -219,6 +221,7 @@ body{
 }
 #sites{
 	background-image: none;
+	color: white;
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -227,6 +230,7 @@ body{
 }
 #costs{
 	background-image: none;
+	color: white;
 	/*margin: auto;
 	padding-right: none;
 	border-style: hidden;
@@ -234,7 +238,7 @@ body{
 	padding-top: none;
 	border-radius: .01em;*/
 }
-#applya{
+/*#applya{
 	text-align: center;
 	margin: 0;
 	float: none;
@@ -257,7 +261,7 @@ body{
 	margin: auto;
 	float: none;
 	padding: 0;
-}
+}*/
 #container{
 	width: 100%;
 	margin-left: 0;
@@ -293,7 +297,7 @@ body{
 /*p:hover{
 	font-size: 100%;
 }*/
-#sites:hover{
+/*#sites:hover{
 	background-color: white;
 	color: #82c0c0;
 	border-style: solid;
@@ -311,12 +315,12 @@ body{
 	border-style: solid;
 	border-color: white;
 }
-#apply:hover{
+#about:hover{
 	background-color: white;
 	color: #82c0c0;
 	border-style: solid;
 	border-color: white;
-}
+}*/
 #foot{
 	background-color: #3f3f3f;
 	color: white;
@@ -371,8 +375,19 @@ body{
 	margin-bottom: .4em;
 	text-align: center;
 }
-
-#mobilebanner {
+#mobilebanner{
 	display: none;
 }
+a{
+	color: white;
+	background-color: #82c0c0;
+	text-decoration: none;
+
+}
+a:hover{
+	color: #82c0c0;
+	background-color: white;
+	text-decoration: none;
+}
+
 }
