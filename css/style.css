@@ -238,6 +238,22 @@ body{
 	padding-top: none;
 	border-radius: .01em;*/
 }
+#about>a {
+	padding: 0;
+	float: none;
+}
+#academics>a {
+	padding: 0;
+	float: none;
+}
+#sites>a {
+	padding: 0;
+	float: none;
+}
+#costs>a {
+	padding: 0;
+	float: none;
+}
 /*#applya{
 	text-align: center;
 	margin: 0;
@@ -352,20 +368,20 @@ body{
 }
 
 #doit{
-	display: block;
+	display: flex;
+	justify-content: center;
 	background-image: url(../images/sicily.jpg);
 	width: 100%;
 	background-size: cover;
-	/*background-position: bottom;*/
 	float: left;
 	height: 2em;
 	background-repeat:no-repeat;
 	color: white;
 	font-size: 7em;
-	padding-top: 0;
+	padding-top: .1em;
 	text-align: center;
 }
-#doit>p{
+/*#doit>a{
 	border-style: solid;
 	border-color: white;
 	border-collapse:collapse; 
@@ -374,14 +390,18 @@ body{
 	margin-top: .3em;
 	margin-bottom: .4em;
 	text-align: center;
-}
+	text-decoration: none;
+	color: white;
+}*/
 #mobilebanner{
 	display: none;
 }
-a{
+/*a{
 	color: white;
 	background-color: #82c0c0;
 	text-decoration: none;
+	padding: 0;
+	float: none;
 
 }
 a:hover{
@@ -389,5 +409,5 @@ a:hover{
 	background-color: white;
 	text-decoration: none;
 }
-
+*/
 }
