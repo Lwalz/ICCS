@@ -204,6 +204,7 @@ body{
 #about{
 	background-image: none;
 	color: white;
+	height: 1.7em;
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -213,6 +214,7 @@ body{
 #academics{
 	background-image: none;
 	color: white;
+	height: 1.7em;
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -222,6 +224,7 @@ body{
 #sites{
 	background-image: none;
 	color: white;
+	height: 1.7em;
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -231,6 +234,7 @@ body{
 #costs{
 	background-image: none;
 	color: white;
+	height: 1.7em;
 	/*margin: auto;
 	padding-right: none;
 	border-style: hidden;
