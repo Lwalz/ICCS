@@ -31,7 +31,7 @@ background-color: #82c0c0;
 #info-bar2{
 	display: none;
 }
-#apply{
+#about{
 background-image: url(../images/palpatine.jpg);
 background-position: top;
 background-repeat:no-repeat;
@@ -64,7 +64,7 @@ background-size:100%;
 	font-size: 4em;
 	height: 2.8em;
 }
-#applya{
+#about>a{
 	float: right;
 	padding-right: .3em;
 	padding-top: .8em;
@@ -73,7 +73,7 @@ background-size:100%;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 }
-#academicsa{
+#academics>a{
 	float: left;
 	padding-left: .3em;
 	padding-top: .8em;
@@ -82,7 +82,7 @@ background-size:100%;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 }
-#sitesa{
+#sites>a{
 	float: right;
 	padding-right: .3em;
 	padding-top: .8em;
@@ -91,7 +91,7 @@ background-size:100%;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 }
-#costsa{
+#costs>a{
 	float: left;
 	padding-left: .3em;
 	padding-top: .8em;
