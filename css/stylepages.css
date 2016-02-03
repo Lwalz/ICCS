@@ -1,0 +1,55 @@
+body, p, div, section, p{
+	padding: 0;
+	margin: 0;
+}
+
+#banner{
+	width: 100%;
+}
+
+#academics{
+	width: 100%;
+	background-image: url(../images/group.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size:100%;
+	color: white;
+
+}
+
+#courses{
+	width: 100%;
+	background-image: url(../images/dock.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size:100%;
+	color: white;
+}
+
+#scholarships{
+	width: 100%;
+	background-image: url(../images/sicilia.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size:100%;
+	color: white;
+}
+p{
+	text-decoration: none;
+	color: white;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	font-size: 4em;
+}
+
+#foot{
+	background-color: #3f3f3f;
+	color: white;
+	font-size: .8em;
+	width: 100%;
+	float:left;
+	height: 6em;
+	padding: .6em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+}
