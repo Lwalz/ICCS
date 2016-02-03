@@ -7,6 +7,10 @@ body, p, div, section, p{
 	width: 100%;
 }
 
+.bar{
+	height: 9em;
+}
+
 #academics{
 	width: 100%;
 	background-image: url(../images/group.jpg);
@@ -14,7 +18,16 @@ body, p, div, section, p{
 	background-repeat:no-repeat;
 	background-size:100%;
 	color: white;
+	text-align: center;
+	padding-top: 2em;
 
+}
+
+#info{
+	text-align: center;
+	padding: 1.5em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
 }
 
 #courses{
@@ -39,7 +52,7 @@ p{
 	color: white;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
-	font-size: 4em;
+	font-size: 1em;
 }
 
 #foot{
