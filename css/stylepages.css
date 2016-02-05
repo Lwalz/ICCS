@@ -1,14 +1,12 @@
-body, p, div, section, p{
+body, p, div, section, p, a{
 	padding: 0;
 	margin: 0;
+	text-decoration: none;
+	color: none;
 }
 
 #banner{
 	width: 100%;
-}
-
-.bar{
-	height: 9em;
 }
 
 #academics{
@@ -18,8 +16,17 @@ body, p, div, section, p{
 	background-repeat:no-repeat;
 	background-size:100%;
 	color: white;
+
+
+}
+#main{
+	color: white;
+	line-height: 1.6em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
 	text-align: center;
-	padding-top: 2em;
+	font-size: 6em;
+
 
 }
 
@@ -65,4 +72,45 @@ p{
 	padding: .6em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
+}
+#c{
+	background-image: url(../images/sicilia.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size:100%;
+	text-align: center;
+	color: white;
+	font-size: 6em;
+
+}
+#coursebar>p{
+	color: white;
+	line-height: 1.6em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	text-align: center;
+}
+#coursebar{
+	padding:1em;
+	background-color: #d6aa7d;
+}
+#s{
+	background-image: url(../images/dock.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size:100%;
+	color: white;
+	text-align: center;
+	font-size: 6em;
+}
+#scholarshipbar>p{
+	color: black;
+	text-align: center;
+	padding: 1.5em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+}
+a{
+	color: white;
 }
