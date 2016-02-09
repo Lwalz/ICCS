@@ -21,11 +21,10 @@ body, p, div, section, p, a{
 }
 #main{
 	color: white;
-	line-height: 1.6em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	text-align: center;
-	font-size: 6em;
+	font-size: 6.5em;
 
 
 }
@@ -44,6 +43,7 @@ body, p, div, section, p, a{
 	background-repeat:no-repeat;
 	background-size:100%;
 	color: white;
+	font-size: 6.5em;
 }
 
 #scholarships{
@@ -59,7 +59,7 @@ p{
 	color: white;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
-	font-size: 1em;
+
 }
 
 #foot{
@@ -80,12 +80,11 @@ p{
 	background-size:100%;
 	text-align: center;
 	color: white;
-	font-size: 6em;
+	font-size: 6.5em;
 
 }
 #coursebar>p{
 	color: white;
-	line-height: 1.6em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	text-align: center;
@@ -93,6 +92,7 @@ p{
 #coursebar{
 	padding:1em;
 	background-color: #d6aa7d;
+	font-size: 1.3em;
 }
 #s{
 	background-image: url(../images/dock.jpg);
@@ -101,7 +101,7 @@ p{
 	background-size:100%;
 	color: white;
 	text-align: center;
-	font-size: 6em;
+	font-size: 5.5em;
 }
 #scholarshipbar>p{
 	color: black;
@@ -109,7 +109,7 @@ p{
 	padding: 1.5em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 a{
 	color: white;
