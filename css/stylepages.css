@@ -80,19 +80,17 @@ p{
 	background-size:100%;
 	text-align: center;
 	color: white;
-	font-size: 6.5em;
+	font-size: 4em;
 
 }
 #coursebar>p{
-	color: white;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
 	text-align: center;
+	font-size: 1.7em;
+
 }
 #coursebar{
-	padding:1em;
 	background-color: #d6aa7d;
-	font-size: 1.3em;
+	height: 2em;
 }
 #s{
 	background-image: url(../images/dock.jpg);
@@ -101,7 +99,7 @@ p{
 	background-size:100%;
 	color: white;
 	text-align: center;
-	font-size: 5.5em;
+	font-size: 4em;
 }
 #scholarshipbar>p{
 	color: black;
