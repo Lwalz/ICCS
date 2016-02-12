@@ -33,16 +33,6 @@ body, p, div, section, p, a{
 	font-weight: 100;
 }
 
-#courses{
-	width: 100%;
-	background-image: url(../images/dock.jpg);
-	background-position: top;
-	background-repeat:no-repeat;
-	background-size:100%;
-	color: white;
-	font-size: 6.5em;
-}
-
 #scholarships{
 	width: 100%;
 	background-image: url(../images/sicilia.jpg);
@@ -72,13 +62,11 @@ p{
 }
 #c{
 	background-image: url(../images/sicilia.jpg);
-	background-position: top;
 	background-repeat:no-repeat;
-	text-align: center;
 	color: white;
-	font-size: 6em;
-	height: 3.2em;
-
+	width: 100%;
+	background-size: 100%;
+	height: 19em;
 }
 #coursebar>p{
 	text-align: center;
@@ -88,16 +76,15 @@ p{
 }
 #coursebar{
 	background-color: #d6aa7d;
-	height: auto;
+	margin-bottom: auto 4em;
 }
 #s{
-	background-image: url(../images/dock.jpg);
-	background-position: top;
+	background-image: url(../images/terracina.jpg);
 	background-repeat:no-repeat;
 	color: white;
-	text-align: center;
-	font-size: 4.2em;
-	height: 4.3em;
+	width: 100%;
+	background-size: 100%;
+	height: 19em;
 }
 #scholarshipbar>p{
 	color: black;
@@ -107,6 +94,10 @@ p{
 	font-weight: 100;
 	font-size: 1.3em;
 }
-a{
-	color: white;
+#cArrow{
+	float: right;
+}
+
+#sArrow{
+	float: right;
 }
