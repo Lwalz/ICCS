@@ -8,24 +8,21 @@ body, p, div, section, p, a{
 #banner{
 	width: 100%;
 }
-
-#academics{
-	width: 100%;
-	background-image: url(../images/group.jpg);
-	background-position: top;
-	background-repeat:no-repeat;
-	background-size:100%;
-	color: white;
-
-
-}
 #main{
 	color: white;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
+	width: 100%;
+	background-image: url(../images/group.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	font-size: 6em;
+	height: 3.2em;
+}
+#academicsContain{
+	vertical-align: middle;
 	text-align: center;
-	font-size: 6.5em;
-
+	padding-top: 1em;
 
 }
 
@@ -77,29 +74,30 @@ p{
 	background-image: url(../images/sicilia.jpg);
 	background-position: top;
 	background-repeat:no-repeat;
-	background-size:100%;
 	text-align: center;
 	color: white;
-	font-size: 4em;
+	font-size: 6em;
+	height: 3.2em;
 
 }
 #coursebar>p{
 	text-align: center;
 	font-size: 1.7em;
+	padding: .5em;
 
 }
 #coursebar{
 	background-color: #d6aa7d;
-	height: 2em;
+	height: auto;
 }
 #s{
 	background-image: url(../images/dock.jpg);
 	background-position: top;
 	background-repeat:no-repeat;
-	background-size:100%;
 	color: white;
 	text-align: center;
-	font-size: 4em;
+	font-size: 4.2em;
+	height: 4.3em;
 }
 #scholarshipbar>p{
 	color: black;
