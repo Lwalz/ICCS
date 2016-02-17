@@ -1,4 +1,4 @@
-body, p, div, section, p, a{
+body, p, div, section, p, a,{
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
@@ -72,13 +72,16 @@ p{
 }
 #coursebar>p{
 	text-align: center;
-	font-size: 3.4em;
+	font-size: 2.8em;
 	padding: 1.5em;
+	overflow: hidden;
 
 }
 #coursebar{
 	background-color: #d6aa7d;
 	background-repeat: no-repeat;
+	height: auto !important;
+
 }
 #s{
 	background-image: url(../images/terracina.jpg);
