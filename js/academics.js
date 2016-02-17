@@ -7,4 +7,5 @@ $(document).ready(function(){
 		$('#sArrow').css('transform','rotate(360deg)');
 		$('#cArrow').css('transform','rotate(360deg)');
 });
+	
 });

@@ -55,18 +55,19 @@ p{
 	font-size: .8em;
 	width: 100%;
 	float:left;
-	height: 6em;
+	height: 10em;
 	padding: .6em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
+	display: inline-block;
 }
 #c{
 	background-image: url(../images/sicilia.jpg);
-	background-repeat:no-repeat;
-	color: white;
-	width: 100%;
-	background-size: 100%;
-	height: 19em;
+	background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%;
 }
 #coursebar>p{
 	text-align: center;
@@ -80,11 +81,11 @@ p{
 }
 #s{
 	background-image: url(../images/terracina.jpg);
-	background-repeat:no-repeat;
-	color: white;
-	width: 100%;
-	background-size: 100%;
-	height: 19em;
+	background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%;
 }
 #scholarshipbar>p{
 	color: black;
