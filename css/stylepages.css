@@ -8,6 +8,7 @@ body, p, div, section, p, a{
 #banner{
 	width: 100%;
 }
+
 #main{
 	color: white;
 	font-family: "Helvetica", sans-serif;
@@ -71,13 +72,13 @@ p{
 }
 #coursebar>p{
 	text-align: center;
-	font-size: 1.7em;
+	font-size: 2.6em;
 	padding: .5em;
 
 }
 #coursebar{
 	background-color: #d6aa7d;
-	margin-bottom: auto 4em;
+	background-repeat: no-repeat;
 }
 #s{
 	background-image: url(../images/terracina.jpg);
