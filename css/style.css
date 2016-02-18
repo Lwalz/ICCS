@@ -110,7 +110,7 @@ background-size:100%;
 	bottom: 0;
 	z-index: 999999;
 	height: 6em;
-	padding: .6em;
+	/*padding: .6em;*/
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 }
@@ -120,19 +120,21 @@ background-size:100%;
 	width: 100%;
 }
 #uno{
-	width: 50%;
+	width: 40%;
 	float: left;
 	padding-top: 1em;
-	padding-bottom: .7em;
+	padding-bottom: .5em;
+	padding-left: 1em;
 	line-height: 1.2em;
 	text-align: left;
 
 }
 #dos{
-	width: 50%;
-	float: left;
+	width: 40%;
+	float: right;
 	padding-top: 1em;
-	padding-bottom: .7em;
+	padding-bottom: .5em;
+	padding-right: 1em;
 	line-height: 1.2em;
 	text-align: right;
 }
@@ -363,12 +365,14 @@ body{
 #uno{
 	width: 100%;
 	padding-bottom: 0;
+	padding-left: 0;
 }
 
 #dos{
 	width: 100%;
 	text-align: left;
 	padding-top: 0;
+	padding-right: 0;
 }
 
 #doit{

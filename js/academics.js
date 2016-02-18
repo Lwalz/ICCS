@@ -7,8 +7,13 @@ $(document).ready(function(){
 		$('#sArrow').css('transform','rotate(360deg)');
 		$('#cArrow').css('transform','rotate(360deg)');
 });
+<<<<<<< HEAD
 	$('#academics').css('background-color','white');
 	$('#academics').css('color','blue !important');
 
+=======
+
+	
+>>>>>>> origin/gh-pages
 	
 });
