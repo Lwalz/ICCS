@@ -190,6 +190,10 @@ th {
 }
 .o-bar {
 }
+tab-pane {
+	background-color: #d6aa7d;
+}
+
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -1074,6 +1078,10 @@ th {
 }
 * {
 }
+#academics>a {
+	color: #82c0c0;
+}
+
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
@@ -1290,6 +1298,7 @@ p {
 	margin-top: 0;
 	margin-right: 0;
 	margin-left: 0;
+	margin-bottom: 0px;
 }
 .lead {
   margin-bottom: 20px;
@@ -3919,27 +3928,36 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom: 1px solid #ddd;
 }
 .nav-tabs > li {
-  float: left;
-  margin-bottom: -1px;
+	float: left;
+	margin-bottom: -1px;
+	width: 50%;
+	background-color: #FCD0A4;
 }
 .nav-tabs > li > a {
-  margin-right: 2px;
-  line-height: 1.42857143;
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	text-align: center;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eee #eee #ddd;
+	border-color: #eee #eee #ddd;
+	background-color: #d6aa7d;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555;
-  cursor: default;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-bottom-color: transparent;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #d6aa7d;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
 }
+.nav-tabs {
+	width: 100%;
+	font-size: 3em;
+}
+
 .nav-tabs.nav-justified {
   width: 100%;
   border-bottom: 0;
@@ -4058,6 +4076,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .tab-content > .active {
   display: block;
 }
+.tab-content {
+	background-color: #d6aa7d;
+	line-height: 3em;
+	font-size: 2em;
+	text-align: center;
+}
+
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-left-radius: 0;

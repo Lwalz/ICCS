@@ -7,5 +7,8 @@ $(document).ready(function(){
 		$('#sArrow').css('transform','rotate(360deg)');
 		$('#cArrow').css('transform','rotate(360deg)');
 });
+	$('#academics').css('background-color','white');
+	$('#academics').css('color','blue !important');
+
 	
 });
