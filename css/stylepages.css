@@ -83,6 +83,9 @@ p{
     height: 0;
     padding-top: 66.64%;
 }
+#scholarshipbar {
+	margin-bottom: 4.5em;
+}
 #scholarshipbar>p{
 	color: black;
 	text-align: center;
