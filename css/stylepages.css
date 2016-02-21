@@ -291,6 +291,7 @@ a:hover{
 	display:none;
 }
 #scholarshipbar>p{
+	display:none;
 	}
 #doit{
 	display: flex;
@@ -308,8 +309,6 @@ a:hover{
 	margin-bottom:.6em;
 }
 
-}
-=======
 .footer{	
 	position: relative;
 	margin: 0 auto;
@@ -334,4 +333,4 @@ a:hover{
 	line-height: 1.2em;
 	text-align: right;
 }
->>>>>>> origin/gh-pages
+
