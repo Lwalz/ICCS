@@ -203,6 +203,8 @@ body{
 	font-family: "Helvetica light", sans-serif;
 	font-weight: 100;
 }
+
+
 #about{
 	background-image: none;
 	color: white;
@@ -247,18 +249,51 @@ body{
 #about>a {
 	padding: 0;
 	float: none;
+	padding-bottom:.6em;
+	padding-left:.9em;
+	padding-right:.9em;
+}
+
+#about>a:hover{
+	background-color:white;
+	color: #82c0c0;
+	border-radius: .09em;
 }
 #academics>a {
 	padding: 0;
 	float: none;
+	padding-bottom:.6em;
+	padding-left:.9em;
+	padding-right:.9em;
+}
+#academics>a:hover{
+	background-color:white;
+	color: #82c0c0;
+	border-radius: .09em;
 }
 #sites>a {
 	padding: 0;
 	float: none;
+	padding-bottom:.6em;
+	padding-left:.9em;
+	padding-right:.9em;
+}
+#sites>a:hover{
+	background-color:white;
+	color: #82c0c0;
+	border-radius: .09em;
 }
 #costs>a {
 	padding: 0;
 	float: none;
+	padding-bottom:.6em;
+	padding-left:.9em;
+	padding-right:.9em;
+}
+#costs>a:hover{
+	background-color:white;
+	color: #82c0c0;
+	border-radius: .09em;
 }
 /*#applya{
 	text-align: center;
