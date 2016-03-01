@@ -41,6 +41,7 @@ body {
 	padding: 1.5em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
+	background-color: #82c0c0;
 }
 
 /*#scholarships{
@@ -328,4 +329,3 @@ a:hover{
 	line-height: 1.2em;
 	text-align: right;
 }
-
