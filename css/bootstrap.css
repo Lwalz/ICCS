@@ -1230,8 +1230,13 @@ h2,
 .h2,
 h3,
 .h3 {
+<<<<<<< HEAD
   margin-top: 20px;
   margin-bottom: 0;
+=======
+	margin-top: 2px;
+	margin-bottom: 0;
+>>>>>>> parent of 06216d8... jhj
 }
 h1 small,
 .h1 small,
