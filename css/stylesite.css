@@ -4,20 +4,3 @@
 #banner {
 	width: 100%;
 }
-#foot{
-	background-color: #3f3f3f;
-	color: white;
-	font-size: 1.9em;
-	width: 100%;
-	float: left;
-	height: 8em;
-	padding: .6em;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	display: inline-block;
-}
-#info {
-	padding: 2em;
-	background-color: #82c0c0;
-	text-align: center;
-}

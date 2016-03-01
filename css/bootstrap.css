@@ -1095,8 +1095,8 @@ html {
 }
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	color: #FFFFFF;
+	font-size: 14px;
+	color: #333;
 	background-color: #fff;
 }
 input,
