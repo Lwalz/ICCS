@@ -3092,9 +3092,9 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
-	background-color: #82c0c0;
-	border-color: #2e6da4;
-	color: #f6f6f6;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -3102,9 +3102,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-	color: #82c0c0;
-	background-color: #F6F6F6;
-	border-color: #82c0c0;
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -4878,10 +4878,10 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-	padding: 30px 15px;
-	margin-bottom: 0px;
-	color: #F9F9F9;
-	background-color: #B6B6B6;
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
