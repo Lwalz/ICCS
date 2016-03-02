@@ -67,11 +67,10 @@ p{
 #foot{
 	background-color: #3f3f3f;
 	color: white;
-	font-size: 1.9em;
+	font-size: 1.6em;
 	width: 100%;
 	float: left;
 	height: 8em;
-	padding: .6em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	display: inline-block;
@@ -330,4 +329,11 @@ a:hover{
 	padding-right: 1em;
 	line-height: 1.2em;
 	text-align: right;
+}
+.footer {
+	padding: 1em;
+	width: 100%;
+}
+#foot {
+	padding: 1em;
 }

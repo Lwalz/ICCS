@@ -383,10 +383,10 @@ body{
 	color: white;
 	font-size: .8em;
 	width: 100%;
-	float:left;
+	float: left;
 	position: relative;
 	/*bottom:3em; */
-	z-index: 5em;
+	/* [disabled]z-index: 280; */
 	/*height: 5em;*/
 	padding-left: 1em;
 	padding-right: 1em;
