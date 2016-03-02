@@ -41,6 +41,7 @@ body {
 	padding: 1.5em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
+	background-color: #82c0c0;
 }
 
 /*#scholarships{
@@ -78,10 +79,12 @@ p{
 #c{
 	background-image: url(../images/sicilia.png);
 	background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-top: 66.64%;
-    display:block;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-top: 66.64%;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 #coursebar>p{
 	text-align: center;
@@ -328,4 +331,3 @@ a:hover{
 	line-height: 1.2em;
 	text-align: right;
 }
-
