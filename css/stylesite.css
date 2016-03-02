@@ -1,6 +1,41 @@
 #fountain {
 	width: 100%;
 }
+#main{
+	background-color: #82c0c0;
+	color: white;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	width: 100%;
+	font-size: 4em;
+}
+.others:hover{
+	background-color: white;
+	color: #d6aa7d;
+
+}
+div.others {
+	width: 25%;
+	float: left;
+	height: 100%;
+	display: inline-block;
+	font-size: .7em;
+	color: white;
+	font-family: helvettica, sans-serif;
+	font-weight: 100%;
+	padding-top: .25em;
+
+}
+
+
+#more{
+	display: none;
+	height: 3em;
+	width: 100%;
+	text-align: center;
+	background-color:#d6aa7d; 
+	vertical-align: middle;
+}
 #banner {
 	width: 100%;
 }

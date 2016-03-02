@@ -9,16 +9,22 @@ body {
 	background-color: #82c0c0;
 }
 
+.others:hover{
+	background-color: white;
+	color: #d6aa7d;
+
+}
 div.others {
 	width: 25%;
 	float: left;
-	height: 1em;
+	height: 100%;
 	display: inline-block;
-	font-size: 1.7em;
+	font-size: .7em;
 	color: white;
 	font-family: helvettica, sans-serif;
 	font-weight: 100%;
 	padding-top: .25em;
+
 }
 
 
@@ -28,6 +34,7 @@ div.others {
 	width: 100%;
 	text-align: center;
 	background-color:#82c0c0; 
+	vertical-align: middle;
 }
 
 #banner{
@@ -37,12 +44,10 @@ div.others {
 
 #main{
 	color: white;
+	background-color: #d6aa7d; 
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	width: 100%;
-	background-image: url(../images/group.jpg);
-	background-position: top;
-	background-repeat:no-repeat;
 	font-size: 4em;
 	height: 2.8em;
 }
