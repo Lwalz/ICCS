@@ -149,6 +149,7 @@ background-size:100%;
 }
 
 
+
 @media (min-width:750px){
 
 body{
@@ -255,9 +256,9 @@ body{
 }
 
 #about>a:hover{
-	background-color:white;
+	background-color: white;
 	color: #82c0c0;
-	border-radius: .09em;
+	border-radius: 0;
 }
 #academics>a {
 	padding: 0;
@@ -291,9 +292,9 @@ body{
 	padding-right:.9em;
 }
 #costs>a:hover{
-	background-color:white;
+	background-color: white;
 	color: #82c0c0;
-	border-radius: .09em;
+	border-radius: 0;
 }
 /*#applya{
 	text-align: center;
@@ -411,17 +412,17 @@ body{
 }
 
 #doit{
-	display: flex;
+	display: inline-block;
 	justify-content: center;
 	background-image: url(../images/sicily.jpg);
 	width: 100%;
 	background-size: cover;
 	float: left;
 	height: 2em;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	color: white;
 	font-size: 7em;
-	padding-top: .1em;
+	padding-top: 0em;
 	text-align: center;
 }
 /*#doit>a{
@@ -453,4 +454,16 @@ a:hover{
 	text-decoration: none;
 }
 */
+}
+p{
+	border: solid;
+	height: 75%;
+	margin-top: .2em;
+	width: 50%;
+	display: inline-block;
+	color: white;
+}
+p:hover {
+	background-color: rgb(230,230,230);
+	background-color: rgba(230,230,230,.5);
 }
