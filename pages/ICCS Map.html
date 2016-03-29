@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style type="text/css" media="screen">
+		html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+  padding: 2em;
+}
+	</style>
+
+</head>
+<body>
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script type="text/javascript">
+var marker;
+var count = 0;
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 5,
+    center: {
+      lat: 41.89,
+      lng: 12.5
+    },
+    draggable: false,
+  });
+
+  marker1 = new google.maps.Marker({
+    map: map,
+    draggable: false,
+    position: {
+      lat: 41.89,
+      lng: 12.5
+    },
+    zoom: 10,
+
+  });
+
+  marker2 = new google.maps.Marker({
+    map: map,
+    draggable: false,
+    position: {
+      lat: 40.75,
+      lng: 14.783
+    },
+    zoom: 10,
+
+  });
+
+  marker3 = new google.maps.Marker({
+    map: map,
+    draggable: false,
+    position: {
+      lat: 37.59,
+      lng: 14.152
+    },
+    zoom: 10,
+
+  });
+
+  map.addListener('click', function() {
+    map.setCenter({
+      lat: 41.89,
+      lng: 12.5
+    });
+    map.setZoom(5);
+  });
+  var rome = marker1;
+  rome.addListener('click', function() {
+    map.panTo({
+      lat: 41.89,
+      lng: 12.5
+    });
+    map.setZoom(8);
+  });
+
+  var campagnia = marker2;
+  campagnia.addListener('click', function() {
+    map.panTo({
+      lat: 40.75,
+      lng: 14.783
+    });
+    map.setZoom(8);
+  });
+
+  var sicily = marker3;
+  sicily.addListener('click', function() {
+    map.panTo({
+      lat: 37.59,
+      lng: 14.152
+    });
+    map.setZoom(8);
+  });
+
+
+
+};
+
+
+
+</script>
+
+</body>
+</html>
