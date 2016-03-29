@@ -1,3 +1,9 @@
+#self{
+	border: solid;
+	background-color: #82c0c0;
+	border-radius: .1em;
+	color: white;
+}
 #fountain {
 	width: 100%;
 }
@@ -11,20 +17,19 @@
 }
 
 div.others {
-	width: 25%;
 	float: left;
-	height: 100%;
+	height: auto;
 	display: inline-block;
 	font-size: 1.5em;
 	color: white;
 	font-family: helvettica, sans-serif;
 	font-weight: 100%;
-	padding-top: 1em;
+	padding-top: 0em;
 }
 
 
 #more{
-	height: 5.4em;
+	/* [disabled]height: 5.4em; */
 	text-align: center;
 	background-color: #d6aa7d;
 	vertical-align: middle;
@@ -79,7 +84,7 @@ div.others {
 
 @media (min-width:750px){
 #banner {
-	width: 40%;
+	width: 29%;
 	display: inline-block;
 	float: left;
 }
@@ -88,23 +93,44 @@ div.others {
 }
 #more {
 	background-color: #FFFFFF;
-	width: 57%;
+	width: 71%;
 	display: inline-block;
-	float: right;
+	float: left;
+	margin-top: 1.6em;
 }
 div.others {
 	color: #82c0c0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	font-size: 2
 .
 .;
-	font-size: 1.5em;
-	width: 24.2%;
-	height: 1.5em;
-	margin-top: 2.5em;
+	font-size: 1.8em;
+	width: 24%;
+	margin-top: 0em;
 }
 div.others:hover {
-	border: solid #82c0c0;
-	border-radius: .7em;
+	border-style: solid;
+	border-radius: .1em;
 	color: white;
 	background-color: #82c0c0;
 }
@@ -180,4 +206,6 @@ div.others:hover {
 	background-color: rgb(230,230,230);
 	background-color: rgba(230,230,230,.5);
 }
+
+
 }
