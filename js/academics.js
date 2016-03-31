@@ -7,8 +7,12 @@ $(document).ready(function(){
   $('#main').click(function(){
 	  $('#more').css('display','inline-block');
 	  });
- 
-
-
-	
+	   
+	   $('#columnSite1')(function(){
+		   $('#carousel1').carousel('pause');
+	   });
+	   
+	   $('#columnSite1').hover()(function(){
+		   $('#carousel1').carousel('cycle');
+	   });
 });

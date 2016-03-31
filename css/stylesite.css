@@ -145,8 +145,8 @@ div.others:hover {
 	width: 100%;
 }
 #columnSite2 {
-	width: 31%;
-	padding: .5em;
+	width: 32%;
+	padding: .6%;
 	float: left;
 	opacity: .6;
 }
@@ -154,8 +154,8 @@ div.others:hover {
 	float: left;
 }
 #columnSite3 {
-	width: 31%;
-	padding: .5em;
+	width: 32%;
+	padding: .6%;
 	float: left;
 	opacity: 0.6;
 }
@@ -163,8 +163,8 @@ div.others:hover {
 	font-size: 2em;
 }
 #columnSite1 {
-	width: 31%;
-	padding: .5em;
+	width: 32%;
+	padding: .6%;
 	float: left;
 	opacity: 0.6;
 }
