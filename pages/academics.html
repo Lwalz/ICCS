@@ -11,7 +11,6 @@
 
     <!-- <script src="jQueryAssets/jquery-1.11.1.min.js" type=	"text/javascript"></script> -->
     <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js" type="text/javascript"></script>
     
     <script src="../js/academics.js" type="text/javascript"></script>
 </head>
@@ -74,11 +73,10 @@ Each semester allows about fifteen weeks of instruction and provides one full se
 Final assignment of credit is the responsibility of the student's home college or university. The reporting of courses and grades and the extent of the materials and periods covered in the ICCS curriculum have been entirely acceptable to students' home colleges and universities.
 </section>
 
-<div id="Accordion1">
-  <h3 id="c"></h3>
-  <div id="coursebar" style="display: block">
+ <section id="c"><img id="coursetitle" src="../images/sicilia.png"></section>
+ <div id="coursebar">
 
-    <p>CLST341: Ancient City (2 credits)<br>
+CLST341: Ancient City (2 credits)<br>
 LATIN203: Intermediate Latin (1 credit)<br>
 LATIN301: Advanced Latin (1 credit)<br>
 GREEK203: Intermediate Greek (1 credit)<br>
@@ -86,16 +84,15 @@ GREEK301: Advanced Greek (1 credit)<br>
 ARTHIST255: Renaissance
 and Baroque Art History (1 credit)<br>
 ITALIAN101: Elementary Italian (1 credit)
-</p>
   <hr>
-<p>Students who wish to take an independent study or directed reading may do so, providing it is supervised by a member of the faculty at the student's own college or university. This work will not appear on an ICCS transcript, and no responsibility for it will be taken by the ICCS faculty.</p></div>
-<div id="scholarships">
-  <div id="s"></div>
-  <div id="scholarshipbar">
-    <p><b>INFORMATION HERE!?!?!</b><br><br>"Because our mission is to introduce the best students to ancient and modern Rome, the ICCS follows a need-blind admissions policy: we admit students without regard to financial need. In support of our mission we have offered an average of $100,000 per semester to students demonstrating need. Our resources do not yet permit us to completely meet everyone’s demonstrated need, but we do give substantial help, sometimes almost a full scholarship, to everyone with demonstrated need." </p>
-  </div>
+Students who wish to take an independent study or directed reading may do so, providing it is supervised by a member of the faculty at the student's own college or university. This work will not appear on an ICCS transcript, and no responsibility for it will be taken by the ICCS faculty.</div>
 
-  </div>
+
+<section id="s"><img id="scholarshiptitle" src="../images/terracina.png"></section>
+<div id="scholarshipbar">
+<b>INFORMATION HERE!?!?!</b><br><br>Because our mission is to introduce the best students to ancient and modern Rome, the ICCS follows a need-blind admissions policy: we admit students without regard to financial need. In support of our mission we have offered an average of $100,000 per semester to students demonstrating need. Our resources do not yet permit us to completely meet everyone’s demonstrated need, but we do give substantial help, sometimes almost a full scholarship, to everyone with demonstrated need.
+</div>
+
 <div role="tabpanel" id="tabz">
   <ul class="nav nav-tabs" role="tablist">
     <li class="active"><a href="#home1" data-toggle="tab" role="tab">courses</a></li>
@@ -132,7 +129,7 @@ ITALIAN101: Elementary Italian (1 credit)
   <p>APPLY</p> -->
 </section>
 
-</div>
+
 
 <!--Sticky footer for mobile, static for desktop-->
 <section id="foot" class="footer"><div id="uno">Susan E. Pratt, Assistant Director/GEO Program Manager</div><div id="dos">Tel. (919) 684-2174<br>pratt.susan@duke.edu</div>
@@ -141,45 +138,10 @@ ITALIAN101: Elementary Italian (1 credit)
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 
 
-<script src="../js/bootstrap.js"></script> <script type="text/javascript">
-$(function() {
-	$( "#Accordion1" ).accordion(); 
-});
+<script src="../js/bootstrap.js"></script> 
 
 <script src="../js/bootstrap.js"></script>
 
-
-<script type="text/javascript">
-  $(function() {
-
-    $('#c').click(function(){
-      $('#coursebar').slideToggle();
-      
-    });
-  });
-
-  $(function(){
-        $('#c').click(function(){
-          $('html,body').animate({scrollTop:$('#c').offset().top}, 1000);
-
-        });
-      });
-
-  $(function() {
-
-    $('#s').click(function(){
-      $('#scholarshipbar').slideToggle();
-      
-    });
-  });
-
-  $(function(){
-        $('#s').click(function(){
-          $('html,body').animate({scrollTop:$('#s').offset().top}, 1000);
-
-        });
-      });
-</script>
 
 
 </body>

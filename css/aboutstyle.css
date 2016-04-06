@@ -1,0 +1,94 @@
+body, p, div, section, p, a, div{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: none;
+}
+body {
+	background-color: white;
+	height: 100%;
+	line-height: auto;
+}
+#top-banner {
+	width: 100%;
+	background-color: white;
+}
+#banner {
+	width: 100%;
+}
+#main{
+	color: white;
+	background-color: #d6aa7d; 
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	width: 100%;
+	font-size: 4em;
+	height: 2.8em;
+}
+#more{
+	display: none;
+	height: 5em;
+	width: 100%;
+	text-align: center;
+	background-color: #82c0c0;
+	vertical-align: middle;
+}
+#aboutContain{
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 1em;
+}
+.others:hover{
+	background-color: white;
+	color: #d6aa7d;
+}
+div.others {
+	width: 25%;
+	float: left;
+	height: 100%;
+	display: inline-block;
+	font-size: 1.5em;
+	color: white;
+	font-family: helvettica, sans-serif;
+	font-weight: 100%;
+	padding-top: .25em;
+}
+#mission{
+	text-align: center;
+	padding: 1.5em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	background-color: #82c0c0;
+	color: white;
+	line-height: 1.5em;
+	font-size: 2em;
+}
+#apply{
+	border: solid;
+	border-color: #82c0c0;
+	background-color: #d6aa7d;
+	border-width: .1em;
+	color: white;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	text-align: center;
+	font-size: 6em;
+	padding: 1em;
+	margin: 1em;
+}
+#apply:hover{
+	background-color: rgba(214,170,125,.7);
+}
+#foot{
+	background-color: #3f3f3f;
+	color: white;
+	font-size: 1.6em;
+	width: 100%;
+	float: left;
+	height: 8em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 0em;
+}
+

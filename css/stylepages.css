@@ -7,33 +7,39 @@ body, p, div, section, p, a,{
 
 body {
 	background-color: #82c0c0;
+	height: 100%;
+	line-height: auto;
 }
 
 .others:hover{
 	background-color: white;
 	color: #d6aa7d;
-
 }
 div.others {
 	width: 25%;
 	float: left;
 	height: 100%;
 	display: inline-block;
-	font-size: .7em;
+	font-size: 3em;
 	color: white;
 	font-family: helvettica, sans-serif;
 	font-weight: 100%;
 	padding-top: .25em;
-
 }
 
+#coursetitle{
+	width: 100%
 
+}
+#scholarshiptitle{
+	width: 100%;
+}
 #more{
 	display: none;
-	height: 3em;
+	height: 5em;
 	width: 100%;
 	text-align: center;
-	background-color:#82c0c0; 
+	background-color: #82c0c0;
 	vertical-align: middle;
 }
 
@@ -100,55 +106,40 @@ p{
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	display: inline-block;
+	padding-top: 0em;
 }
 #c{
-	background-image: url(../images/sicilia.png);
-	background-size: contain;
-	background-repeat: no-repeat;
 	width: 100%;
-	padding-top: 66.64%;
-	display: block;
-	margin-top: 0;
-	margin-bottom: 0;
+	display: inline-block;
+	float: left;
+
 }
-#coursebar>p{
+#coursebar{
 	text-align: center;
 	font-size: 1.15em;
 	padding: 1.5em;
 	overflow: hidden;
 	margin-bottom: 0;
-
-}
-#coursebar{
+	display: none;
 	background-color: #d6aa7d;
-	background-repeat: no-repeat;
-	height: auto;
-	display:none;
 
 }
+
 #s{
-	background-image: url(../images/terracina.png);
-	background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    padding-top: 66.64%;
+	display: inline-block;
+	width: 100%;
+	float: left;
 }
 #scholarshipbar {
-	margin-bottom: 4.5em;
 	display: none;
-}
-#scholarshipbar>p{
-	color: #FFFFFF;
 	text-align: center;
 	padding: 1.5em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
-
-	margin-bottom: 0;
-
 	font-size: 1.15em;
+	background-color: #d6aa7d;
 }
+
 /*#cArrow{
 	float: right;
 }
@@ -197,6 +188,12 @@ p{
 }
 
 @media (min-width: 750px){
+#main{
+	display: none;
+}
+
+
+
 #tabz{
 	display:inline-block;
 	width:100%;
@@ -367,7 +364,6 @@ a:hover{
 	width: 100%;
 }
 #foot {
-	padding: 1em;
 }
 
 #apply {
