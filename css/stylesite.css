@@ -17,25 +17,30 @@
 }
 
 div.others {
+	width: 25%;
 	float: left;
-	height: auto;
+	height: 100%;
 	display: inline-block;
 	font-size: 1.5em;
 	color: white;
-	font-family: helvettica, sans-serif;
+	font-family: "helvettica", sans-serif;
 	font-weight: 100%;
-	padding-top: 0em;
+	padding-top: .25em;
 }
-
+.others:hover{
+	background-color: white;
+	color: #d6aa7d;
+}
 
 #more{
 	/* [disabled]height: 5.4em; */
-	text-align: center;
 	background-color: #d6aa7d;
-	vertical-align: middle;
-	float: right;
 	display: none;
+	height: 5em;
 	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+
 }
 #banner {
 	width: 100%;
@@ -82,7 +87,7 @@ div.others {
 	display: none;
 }
 
-@media (min-width:750px){
+
 #banner {
 	width: 29%;
 	display: inline-block;

@@ -20,9 +20,9 @@ div.others {
 	float: left;
 	height: 100%;
 	display: inline-block;
-	font-size: 3em;
+	font-size: 1.5em;
 	color: white;
-	font-family: helvettica, sans-serif;
+	font-family: "helvettica", sans-serif;
 	font-weight: 100%;
 	padding-top: .25em;
 }

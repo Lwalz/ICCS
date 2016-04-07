@@ -42,16 +42,15 @@ body {
 	background-color: white;
 	color: #d6aa7d;
 }
-div.others {
+.others {
 	width: 25%;
 	float: left;
 	height: 100%;
 	display: inline-block;
 	font-size: 1.5em;
 	color: white;
-	font-family: helvettica, sans-serif;
+	font-family: "helvettica" , sans-serif;
 	font-weight: 100%;
-	padding-top: .25em;
 }
 #mission{
 	text-align: center;
@@ -90,5 +89,64 @@ div.others {
 	font-weight: 100;
 	display: inline-block;
 	padding-top: 0em;
+}
+#jumbo{
+	display: none;
+}
+
+@media (min-width:750px){
+	#top-banner{
+		width: 30%;
+		float: left;
+		height: 13em;
+		display: flex;
+    	align-items: center;
+
+	}
+	#jumbo{
+		display: inline-block;
+		width: 100%;
+	}
+	#main{
+		display: none;
+	}
+	#more{
+		display: inline-block;
+		background-color: white;
+		color: #82c0c0;
+		width: 70%;
+		float: left;
+		height: 13em;
+		margin: 0 auto;
+
+	}
+	.others{
+		font-size: 2em;
+		color: #82c0c0;
+		width: 25%;
+		display: flex;
+    	align-items: center;
+    	justify-content:center;
+
+	}
+	.others:hover{
+		background-color: #82c0c0;
+		color: white;
+	}
+	#apply{
+		background-image: url(../images/pillars.jpg);
+		background-size: cover;
+		background-repeat: none;
+		border: none;
+		padding: 0;
+		margin: 0;
+		height: 6em;
+	}
+	#applyButton{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 }
 
