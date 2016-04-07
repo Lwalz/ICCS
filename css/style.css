@@ -388,19 +388,21 @@ body{
 	position: relative;
 	margin-top: 0;
 	width: 100%;
+	padding-top: 1em;
 }
 
 #uno{
-	width: 100%;
+	width: 51%;
 	padding-bottom: 0;
-	padding-left: 0;
+	padding-left: 1em;
 }
 
 #dos{
-	width: 100%;
+	width: 51%;
 	text-align: left;
 	padding-top: 0;
 	padding-right: 0;
+	padding-left: 1em;
 }
 
 #doit{
