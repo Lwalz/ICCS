@@ -169,7 +169,7 @@ body{
 	color:#3f3f3f;
 	float: left;
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	padding-left: 6em;
 	padding-right: 6em;
 	padding-top: 1em;
@@ -188,7 +188,7 @@ body{
 	align-items: center;
 	align-content: center;
 	width: 100%;
-	height: 7.5em;
+/* 	height: 7.5em; */
 	padding: 0;
 	margin: 0;
 	background-color: #82c0c0;
@@ -210,7 +210,8 @@ body{
 	background-image: none;
 	color: white;
 	padding: 1em;
-	height: 1.7em;	/*margin: auto;
+	/* height: 1.7em; */
+	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
 	padding-top: 0;
@@ -220,7 +221,8 @@ body{
 	background-image: none;
 	color: white;
 	padding: 1em;
-	height: 1.7em;	/*margin: auto;
+	/* height: 1.7em; */
+	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
 	padding-top: 0;
@@ -230,7 +232,8 @@ body{
 	background-image: none;
 	color: white;
 	padding: 1em;
-	height: 1.7em;	/*margin: auto;
+	/* height: 1.7em; */
+	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
 	padding-top: 0;
@@ -240,7 +243,8 @@ body{
 	background-image: none;
 	color: white;
 	padding: 1em;
-	height: 1.7em;	/*margin: auto;
+	/* height: 1.7em; */
+	/*margin: auto;
 	padding-right: none;
 	border-style: hidden;
 	border-color: white;
@@ -255,8 +259,8 @@ body{
 #about>a:hover{
 	background-color: white;
 	color: #82c0c0;
-	padding: .8;
-	border-radius: 0;
+	/* padding: .8;
+	border-radius: 0; */
 }
 #academics>a {
 	padding: 1em;
@@ -265,7 +269,7 @@ body{
 #academics>a:hover{
 	background-color:white;
 	color: #82c0c0;
-	border-radius: .09em;
+	/* border-radius: .09em; */
 }
 #sites>a {
 	padding: 1em;
@@ -274,7 +278,7 @@ body{
 #sites>a:hover{
 	background-color:white;
 	color: #82c0c0;
-	border-radius: .09em;
+	/* border-radius: .09em; */
 }
 #costs>a {
 	padding: 1em;
@@ -283,7 +287,7 @@ body{
 #costs>a:hover{
 	background-color: white;
 	color: #82c0c0;
-	border-radius: 0;
+	/* border-radius: 0; */
 }
 /*#applya{
 	text-align: center;
@@ -325,7 +329,7 @@ body{
 	background-repeat:no-repeat;
 	background-size: cover;
 	float: left;
-	height: 40em;
+	height: 30em;
 	display: flex;
 	justify-content: center;
 }
@@ -377,8 +381,8 @@ body{
 	/*bottom:3em; */
 	/* [disabled]z-index: 280; */
 	/*height: 5em;*/
-	padding-left: 1em;
-	padding-right: 1em;
+	/* padding-left: 1em;
+	padding-right: 1em; */
 }
 .footer{	
 	position: relative;
