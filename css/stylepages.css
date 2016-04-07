@@ -15,7 +15,7 @@ body {
 	background-color: white;
 	color: #d6aa7d;
 }
-div.others {
+.others {
 	width: 25%;
 	float: left;
 	height: 100%;
@@ -191,14 +191,10 @@ p{
 #main{
 	display: none;
 }
-
-
-
 #tabz{
 	display:inline-block;
 	width:100%;
 }
-
 #carousel1 {
 	display: none;
 }
@@ -239,38 +235,34 @@ body{
 	display:block;
 	padding-left:1em;
 }
+#top-banner{
+	width: 30%;
+	float: left;
+	height: 13em;
+	display: flex;
+	align-items: center;
+	background-color: #82c0c0;
+}
 
-
-.o-bar{
-	/*width: 10%;*/
-	/*float: left;*/
-	font-size: 2.4em;
-	/*background-color: #82c0c0;*/
-	height: auto;
-	text-align: right;
-	font-family: "Helvetica light", sans-serif;
-	font-weight: 100;
-	float:right;
-	width:auto;
-	margin:.5em;
-	border-radius:.1em;
-	display:inline-block;
-}
-.o-bar:hover{
-	background-color:white;
-	cursor:pointer;
-}
-a{
-	color:white;
-}
-a:hover{
-	color:#82c0c0;
-}
-#more{
-	display: none;
-}
 .others{
-	display: none;
+	font-size: 2em;
+	color: white;
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+
+}
+.others:hover{
+	background-color: white;
+	color: #82c0c0;
+}
+
+#more{
+	display:inline-block;
+	width: 70%;
+	float:left;
+	height:13em;
 }
 #main{
 	display:none;
@@ -287,10 +279,8 @@ a:hover{
     height:auto;
 }
 #logo{
-	margin: 0;
-	padding-top: 0;
-	vertical-align: 0;
-	display:none;
+	width:100%;
+	display:inline-block;
 }
 #c{
 	width:50%;
@@ -359,12 +349,7 @@ a:hover{
 	line-height: 1.2em;
 	text-align: right;
 }
-.footer {
-	padding: 1em;
-	width: 100%;
-}
-#foot {
-}
+
 
 #apply {
 	background-color: none;
@@ -379,4 +364,8 @@ a:hover{
 }
 #doit a #apply:hover {
 	background-color: rgba(255,255,255,.5);
+}
+
+a:-webkit-any-link{
+	color:white;
 }

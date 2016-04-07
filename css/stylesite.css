@@ -87,7 +87,7 @@ div.others {
 	display: none;
 }
 
-
+@media (min-width:750px){
 #banner {
 	width: 29%;
 	display: inline-block;
@@ -105,30 +105,6 @@ div.others {
 }
 div.others {
 	color: #82c0c0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	font-size: 2
-.
-.;
 	font-size: 1.8em;
 	width: 24%;
 	margin-top: 0em;
