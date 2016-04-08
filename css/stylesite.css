@@ -1,9 +1,3 @@
-#self{
-	border: solid;
-	background-color: #82c0c0;
-	border-radius: .1em;
-	color: white;
-}
 #fountain {
 	width: 100%;
 }
@@ -23,24 +17,20 @@ div.others {
 	display: inline-block;
 	font-size: 1.5em;
 	color: white;
-	font-family: "helvettica", sans-serif;
+	font-family: helvettica, sans-serif;
 	font-weight: 100%;
-	padding-top: .25em;
+	padding-top: 1em;
 }
-.others:hover{
-	background-color: white;
-	color: #d6aa7d;
-}
+
 
 #more{
-	/* [disabled]height: 5.4em; */
-	background-color: #d6aa7d;
-	display: none;
-	height: 5em;
-	width: 100%;
+	height: 5.4em;
 	text-align: center;
+	background-color: #d6aa7d;
 	vertical-align: middle;
-
+	float: right;
+	display: none;
+	width: 100%;
 }
 #banner {
 	width: 100%;
@@ -89,7 +79,7 @@ div.others {
 
 @media (min-width:750px){
 #banner {
-	width: 29%;
+	width: 40%;
 	display: inline-block;
 	float: left;
 }
@@ -98,20 +88,23 @@ div.others {
 }
 #more {
 	background-color: #FFFFFF;
-	width: 71%;
+	width: 57%;
 	display: inline-block;
-	float: left;
-	margin-top: 1.6em;
+	float: right;
 }
 div.others {
 	color: #82c0c0;
-	font-size: 1.8em;
-	width: 24%;
-	margin-top: 0em;
+	font-size: 2
+.
+.;
+	font-size: 1.5em;
+	width: 24.2%;
+	height: 1.5em;
+	margin-top: 2.5em;
 }
 div.others:hover {
-	border-style: solid;
-	border-radius: .1em;
+	border: solid #82c0c0;
+	border-radius: .7em;
 	color: white;
 	background-color: #82c0c0;
 }
@@ -126,8 +119,8 @@ div.others:hover {
 	width: 100%;
 }
 #columnSite2 {
-	width: 32%;
-	padding: .6%;
+	width: 31%;
+	padding: .5em;
 	float: left;
 	opacity: .6;
 }
@@ -135,8 +128,8 @@ div.others:hover {
 	float: left;
 }
 #columnSite3 {
-	width: 32%;
-	padding: .6%;
+	width: 31%;
+	padding: .5em;
 	float: left;
 	opacity: 0.6;
 }
@@ -144,8 +137,8 @@ div.others:hover {
 	font-size: 2em;
 }
 #columnSite1 {
-	width: 32%;
-	padding: .6%;
+	width: 31%;
+	padding: .5em;
 	float: left;
 	opacity: 0.6;
 }
@@ -187,6 +180,4 @@ div.others:hover {
 	background-color: rgb(230,230,230);
 	background-color: rgba(230,230,230,.5);
 }
-
-
 }
