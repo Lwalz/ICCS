@@ -66,7 +66,7 @@ background-size:100%;
 }
 #about>a{
 	float: right;
-	padding-right: 0em;
+	padding-right: .3em;
 	padding-top: .8em;
 	text-decoration: none;
 	color: white;
@@ -188,7 +188,11 @@ body{
 	align-items: center;
 	align-content: center;
 	width: 100%;
+<<<<<<< HEAD
 /* 	height: 7.5em; */
+=======
+	height: 2.5em;
+>>>>>>> parent of c5bcbe1... fdhjlbkjhgf
 	padding: 0;
 	margin: 0;
 	background-color: #82c0c0;
@@ -209,8 +213,12 @@ body{
 #about{
 	background-image: none;
 	color: white;
+<<<<<<< HEAD
 	padding: 1em;
 	/* height: 1.7em; */
+=======
+	height: 1.7em;
+>>>>>>> parent of c5bcbe1... fdhjlbkjhgf
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -220,8 +228,12 @@ body{
 #academics{
 	background-image: none;
 	color: white;
+<<<<<<< HEAD
 	padding: 1em;
 	/* height: 1.7em; */
+=======
+	height: 1.7em;
+>>>>>>> parent of c5bcbe1... fdhjlbkjhgf
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -231,8 +243,12 @@ body{
 #sites{
 	background-image: none;
 	color: white;
+<<<<<<< HEAD
 	padding: 1em;
 	/* height: 1.7em; */
+=======
+	height: 1.7em;
+>>>>>>> parent of c5bcbe1... fdhjlbkjhgf
 	/*margin: auto;
 	border-style: hidden;
 	border-color: white;
@@ -242,8 +258,12 @@ body{
 #costs{
 	background-image: none;
 	color: white;
+<<<<<<< HEAD
 	padding: 1em;
 	/* height: 1.7em; */
+=======
+	height: 1.7em;
+>>>>>>> parent of c5bcbe1... fdhjlbkjhgf
 	/*margin: auto;
 	padding-right: none;
 	border-style: hidden;
@@ -252,19 +272,29 @@ body{
 	border-radius: .01em;*/
 }
 #about>a {
-	padding: 1em;
+	padding: 0;
 	float: none;
+	padding-bottom:.6em;
+	padding-left:.9em;
+	padding-right:.9em;
 }
 
 #about>a:hover{
 	background-color: white;
 	color: #82c0c0;
+<<<<<<< HEAD
 	/* padding: .8;
 	border-radius: 0; */
+=======
+	border-radius: 0;
+>>>>>>> parent of c5bcbe1... fdhjlbkjhgf
 }
 #academics>a {
-	padding: 1em;
+	padding: 0;
 	float: none;
+	padding-bottom:.6em;
+	padding-left:.9em;
+	padding-right:.9em;
 }
 #academics>a:hover{
 	background-color:white;
@@ -272,8 +302,11 @@ body{
 	/* border-radius: .09em; */
 }
 #sites>a {
-	padding: 1em;
+	padding: 0;
 	float: none;
+	padding-bottom:.6em;
+	padding-left:.9em;
+	padding-right:.9em;
 }
 #sites>a:hover{
 	background-color:white;
@@ -281,8 +314,11 @@ body{
 	/* border-radius: .09em; */
 }
 #costs>a {
-	padding: 1em;
+	padding: 0;
 	float: none;
+	padding-bottom:.6em;
+	padding-left:.9em;
+	padding-right:.9em;
 }
 #costs>a:hover{
 	background-color: white;
@@ -335,10 +371,11 @@ body{
 }
 #banner{
 	display: flex;
-	width: 85%;
+	width: 65%;
 	background-color: none;
 	justify-content: center;
-	align-self: center;	/*padding-top: 25em;
+	align-self: center;
+	/*padding-top: 25em;
 	padding-bottom: 5em;
 	float: left;
 	margin-left: 17em;*/
