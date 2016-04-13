@@ -16,7 +16,7 @@
 	font-size: 4em;
 }
 
-div.others {
+.others {
 	width: 25%;
 	float: left;
 	height: 100%;
@@ -89,31 +89,35 @@ div.others {
 
 @media (min-width:750px){
 #banner {
-	width: 29%;
-	display: inline-block;
+	width: 30%;
 	float: left;
+	height: 13em;
+	display: flex;
+	align-items: center;
 }
 #main {
 	display: none;
 }
 #more {
 	background-color: #FFFFFF;
-	width: 71%;
+	width: 70%;
 	display: inline-block;
 	float: left;
-	margin-top: 1.6em;
+	margin: 0 auto;
+	height: 13em;
 }
-div.others {
+.others{
+	font-size: 2em;
 	color: #82c0c0;
-	font-size: 1.8em;
-	width: 24%;
-	margin-top: 0em;
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+
 }
-div.others:hover {
-	border-style: solid;
-	border-radius: .1em;
-	color: white;
+.others:hover{
 	background-color: #82c0c0;
+	color: white;
 }
 .jumbotron {
 	width: 100%;
