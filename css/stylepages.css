@@ -7,33 +7,39 @@ body, p, div, section, p, a,{
 
 body {
 	background-color: #82c0c0;
+	height: 100%;
+	line-height: auto;
 }
 
 .others:hover{
 	background-color: white;
 	color: #d6aa7d;
-
 }
-div.others {
+.others {
 	width: 25%;
 	float: left;
 	height: 100%;
 	display: inline-block;
-	font-size: .7em;
+	font-size: 1.5em;
 	color: white;
-	font-family: helvettica, sans-serif;
+	font-family: "helvettica", sans-serif;
 	font-weight: 100%;
 	padding-top: .25em;
-
 }
 
+#coursetitle{
+	width: 100%
 
+}
+#scholarshiptitle{
+	width: 100%;
+}
 #more{
 	display: none;
-	height: 3em;
+	height: 5em;
 	width: 100%;
 	text-align: center;
-	background-color:#82c0c0; 
+	background-color: #82c0c0;
 	vertical-align: middle;
 }
 
@@ -100,55 +106,40 @@ p{
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	display: inline-block;
+	padding-top: 0em;
 }
 #c{
-	background-image: url(../images/sicilia.png);
-	background-size: contain;
-	background-repeat: no-repeat;
 	width: 100%;
-	padding-top: 66.64%;
-	display: block;
-	margin-top: 0;
-	margin-bottom: 0;
+	display: inline-block;
+	float: left;
+
 }
-#coursebar>p{
+#coursebar{
 	text-align: center;
 	font-size: 1.15em;
 	padding: 1.5em;
 	overflow: hidden;
 	margin-bottom: 0;
-
-}
-#coursebar{
+	display: none;
 	background-color: #d6aa7d;
-	background-repeat: no-repeat;
-	height: auto;
-	display:none;
 
 }
+
 #s{
-	background-image: url(../images/terracina.png);
-	background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    padding-top: 66.64%;
+	display: inline-block;
+	width: 100%;
+	float: left;
 }
 #scholarshipbar {
-	margin-bottom: 4.5em;
 	display: none;
-}
-#scholarshipbar>p{
-	color: #FFFFFF;
 	text-align: center;
 	padding: 1.5em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
-
-	margin-bottom: 0;
-
 	font-size: 1.15em;
+	background-color: #d6aa7d;
 }
+
 /*#cArrow{
 	float: right;
 }
@@ -197,11 +188,13 @@ p{
 }
 
 @media (min-width: 750px){
+#main{
+	display: none;
+}
 #tabz{
 	display:inline-block;
 	width:100%;
 }
-
 #carousel1 {
 	display: none;
 }
@@ -242,38 +235,34 @@ body{
 	display:block;
 	padding-left:1em;
 }
+#top-banner{
+	width: 30%;
+	float: left;
+	height: 13em;
+	display: flex;
+	align-items: center;
+	background-color: #82c0c0;
+}
 
-
-.o-bar{
-	/*width: 10%;*/
-	/*float: left;*/
-	font-size: 2.4em;
-	/*background-color: #82c0c0;*/
-	height: auto;
-	text-align: right;
-	font-family: "Helvetica light", sans-serif;
-	font-weight: 100;
-	float:right;
-	width:auto;
-	margin:.5em;
-	border-radius:.1em;
-	display:inline-block;
-}
-.o-bar:hover{
-	background-color:white;
-	cursor:pointer;
-}
-a{
-	color:white;
-}
-a:hover{
-	color:#82c0c0;
-}
-#more{
-	display: none;
-}
 .others{
-	display: none;
+	font-size: 2em;
+	color: white;
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+
+}
+.others:hover{
+	background-color: white;
+	color: #82c0c0;
+}
+
+#more{
+	display:inline-block;
+	width: 70%;
+	float:left;
+	height:13em;
 }
 #main{
 	display:none;
@@ -290,10 +279,8 @@ a:hover{
     height:auto;
 }
 #logo{
-	margin: 0;
-	padding-top: 0;
-	vertical-align: 0;
-	display:none;
+	width:100%;
+	display:inline-block;
 }
 #c{
 	width:50%;
@@ -362,11 +349,23 @@ a:hover{
 	line-height: 1.2em;
 	text-align: right;
 }
-.footer {
-	padding: 1em;
-	width: 100%;
+
+
+#apply {
+	background-color: none;
 }
-#foot {
-	padding: 1em;
+#apply {
+	border: medium solid white;
+	margin-top: .3em;
+}
+#doit a #apply {
+	border: medium solid;
+	background-color: transparent;
+}
+#doit a #apply:hover {
+	background-color: rgba(255,255,255,.5);
 }
 
+a:-webkit-any-link{
+	color:white;
+}
