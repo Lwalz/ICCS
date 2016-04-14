@@ -5,7 +5,7 @@ $(document).ready(function(){
 	});
 	
 	$('#s').click(function(){
-		$('#scholarshipbar').toggle('slow');
+		$('#wsabar').toggle('slow');
 	});
 
 	$('#academics').css('background-color','white');

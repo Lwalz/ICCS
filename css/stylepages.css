@@ -31,7 +31,7 @@ body {
 	width: 100%
 
 }
-#scholarshiptitle{
+#wsatitle{
 	width: 100%;
 }
 #more{
@@ -130,7 +130,7 @@ p{
 	width: 100%;
 	float: left;
 }
-#scholarshipbar {
+#wsabar {
 	display: none;
 	text-align: center;
 	padding: 1.5em;
@@ -303,7 +303,7 @@ body{
 	display:none;
 	width:100%;
 }
-#scholarshipbar{
+#wsabar{
 	display:none;
 	float:left;
 	width:50%;
@@ -311,7 +311,7 @@ body{
 #coursebar>p{
 	display:none;
 }
-#scholarshipbar>p{
+#wsabar>p{
 	display:none;
 	}
 #doit{
