@@ -93,6 +93,37 @@ body {
 #jumbo{
 	display: none;
 }
+#c{
+	width: 100%;
+	display: inline-block;
+	float: left;
+
+}
+#costbar{
+	text-align: center;
+	font-size: 1.15em;
+	padding: 1.5em;
+	overflow: hidden;
+	margin-bottom: 0;
+	display: none;
+	background-color: #d6aa7d;
+
+}
+
+#s{
+	display: inline-block;
+	width: 100%;
+	float: left;
+}
+#scholarshipbar {
+	display: none;
+	text-align: center;
+	padding: 1.5em;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	font-size: 1.15em;
+	background-color: #d6aa7d;
+}
 
 
 @media (min-width:750px){
@@ -198,7 +229,12 @@ body {
 	td{
 		padding-top: .1em;
 	}
-	
+	a{
+		color: white;
+	}
+	.tab-pane{
+		padding: 2em;
+	}
 
 }
 
