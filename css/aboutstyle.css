@@ -146,30 +146,26 @@ body {
 	}
 	#apply{
 		background-image: url(../images/pillars.jpg);
-		display: flex;
-		justify-content: center;
 		width: 100%;
 		background-size: cover;
-		height: 4em;
 		background-repeat:no-repeat;
 		color: white;
 		font-size: 7em;
-		padding-top: .1em;
-		border: none;
 		margin: 0;
 		padding: 0;
+		display: flex;
+		content-align:center;
+		vertical-align: middle;
+		justify-content:center;
+		align-items: center;
 		}
 	#applyButton{
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		height: 2em;
 		border-color: #3f3f3f;
 		border: solid;
-		margin-top:1em;
-		margin-bottom:1em;
-		padding-left:.5em;
-		padding-right:.5em;
-		color:#2f2f2f;
+		color:#f6f6f6;
+		cursor: pointer;
+		width: 3em;
 	}
 	#applyButton:hover{
 		background-color: rgba(47, 47, 47, 0.5);
