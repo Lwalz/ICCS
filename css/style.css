@@ -3,6 +3,10 @@ body, div, section, p, head, a{
 	padding: 0;
 
 }
+*{
+	padding: 0;
+	margin: 0;
+}
 #banner{
 	padding: 3em;
 	width: 100%;
@@ -62,12 +66,13 @@ background-size:100%;
 .o-bar{
 	color: white;
 	font-size: 2.7em;
-	height: 2.8em;
+	height: 3em;
+	display: flex;
+	align-items: center;
+	justify-content:center;
 }
 #about>a{
 	float: right;
-	padding-right: .3em;
-	padding-top: .8em;
 	text-decoration: none;
 	color: white;
 	font-family: "Helvetica", sans-serif;
@@ -75,8 +80,6 @@ background-size:100%;
 }
 #academics>a{
 	float: left;
-	padding-left: .3em;
-	padding-top: .8em;
 	text-decoration: none;
 	color: white;
 	font-family: "Helvetica", sans-serif;
@@ -84,8 +87,6 @@ background-size:100%;
 }
 #sites>a{
 	float: right;
-	padding-right: .3em;
-	padding-top: .8em;
 	text-decoration: none;
 	color: white;
 	font-family: "Helvetica", sans-serif;
@@ -93,51 +94,13 @@ background-size:100%;
 }
 #costs>a{
 	float: left;
-	padding-left: .3em;
-	padding-top: .8em;
 	text-decoration: none;
 	color: white;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 }
-#foot{
-	background-color: #3f3f3f;
-	color: white;
-	font-size: .8em;
-	width: 100%;
-	float:left;
-	position: fixed;
-	bottom: 0;
-	z-index: 999999;
-	height: 6em;
-	/*padding: .6em;*/
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-}
-.footer{	
-	position: relative;
-	margin: 0 auto;
-	width: 100%;
-}
-#uno{
-	width: 40%;
-	float: left;
-	padding-top: 1em;
-	padding-bottom: .5em;
-	padding-left: 1em;
-	line-height: 1.2em;
-	text-align: left;
 
-}
-#dos{
-	width: 40%;
-	float: left;
-	padding-top: 1em;
-	padding-bottom: .5em;
-	padding-right: 0em;
-	line-height: 1.2em;
-	text-align: right;
-}
+
 #container{
 	margin-bottom: 4.5em;
 }
@@ -145,10 +108,72 @@ background-size:100%;
 	background-color: white;
 }
 #doit{
-	display: none;
+	width: 100%;
+}
+#foot{
+	background-color: #3f3f3f;
+	color: white;
+	font-size: .8em;
+	width: 100%;
+	float: left;
+	position: relative;
+	height: 9em;
+	/*bottom:3em; */
+	/* [disabled]z-index: 280; */
+	/*height: 5em;*/
+	/* padding-left: 1em;
+	padding-right: 1em; */
+}
+.footer{	
+	position: relative;
+	width: 100%;
+
 }
 
+#uno{
+height: 100%;
+width: 40%;
+float: left;
+line-height: 1.5em;
+text-align: left;
+display: flex;
+content-align:center;
+vertical-align: middle;
+justify-content:center;
+align-items: center;
+padding-left: 1em;
+}
+#dos{
+height: 100%;
+float: right;
+line-height: 1.5em;
+display: flex;
+text-align: right;
+align-items: center;
+content-align:right;
+padding-right: 1em;
 
+}
+#apply{
+	background-color: #f6f6f6;
+	color: #3f3f3f;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	font-size: 4em;
+	height: 4em;
+
+}
+#apply:hover{
+	background-color: rgba(214,170,125,.7);
+}
+#applyButton{
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	vertical-align: middle;
+
+}
 
 @media (min-width:750px){
 
@@ -606,39 +631,7 @@ body{
 	border-style: solid;
 	border-color: white;
 }*/
-#foot{
-	background-color: #3f3f3f;
-	color: white;
-	font-size: .8em;
-	width: 100%;
-	float: left;
-	position: relative;
-	/*bottom:3em; */
-	/* [disabled]z-index: 280; */
-	/*height: 5em;*/
-	/* padding-left: 1em;
-	padding-right: 1em; */
-}
-.footer{	
-	position: relative;
-	margin-top: 0;
-	width: 100%;
-	padding-top: 1em;
-}
 
-#uno{
-	width: 51%;
-	padding-bottom: 0;
-	padding-left: 1em;
-}
-
-#dos{
-	width: 51%;
-	text-align: left;
-	padding-top: 0;
-	padding-right: 0;
-	padding-left: 1em;
-}
 
 #doit{
 	display: inline-block;
@@ -683,16 +676,30 @@ a:hover{
 	text-decoration: none;
 }
 */
-}
-p{
-	border: solid;
-	height: 75%;
-	margin-top: .2em;
-	width: 50%;
-	display: inline-block;
-	color: white;
-}
-p:hover {
-	background-color: rgb(230,230,230);
-	background-color: rgba(230,230,230,.5);
+	#apply{
+		background-image: url(../images/pillars.jpg);
+		width: 100%;
+		background-size: cover;
+		background-repeat:no-repeat;
+		color: white;
+		font-size: 7em;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		content-align:center;
+		vertical-align: middle;
+		justify-content:center;
+		align-items: center;
+		}
+	#applyButton{
+		height: 2em;
+		border-color: #3f3f3f;
+		border: solid;
+		color:#f6f6f6;
+		cursor: pointer;
+		width: 3em;
+	}
+	#applyButton:hover{
+		background-color: rgba(47, 47, 47, 0.5);
+	}
 }

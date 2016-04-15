@@ -4,7 +4,7 @@ body, p, div, section, p, a,{
 	text-decoration: none;
 	color: none;
 }
-
+ 
 body {
 	background-color: #82c0c0;
 	height: 100%;
@@ -337,23 +337,28 @@ body{
 }
 
 #uno{
-	width: 40%;
-	float: left;
-	padding-top: 1em;
-	padding-bottom: .5em;
-	padding-left: 1em;
-	line-height: 1.2em;
-	text-align: left;
-
+height: 100%;
+width: 40%;
+float: left;
+line-height: 1.5em;
+text-align: left;
+display: flex;
+content-align:center;
+vertical-align: middle;
+justify-content:center;
+align-items: center;
+padding-left: 1em;
 }
 #dos{
-	width: 40%;
-	float: right;
-	padding-top: 1em;
-	padding-bottom: .5em;
-	padding-right: 1em;
-	line-height: 1.2em;
-	text-align: right;
+height: 100%;
+float: right;
+line-height: 1.5em;
+display: flex;
+text-align: right;
+align-items: center;
+content-align:right;
+padding-right: 1em;
+
 }
 
 

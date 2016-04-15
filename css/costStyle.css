@@ -63,20 +63,24 @@ body {
 	font-size: 2em;
 }
 #apply{
-	border: solid;
-	border-color: #82c0c0;
-	background-color: #d6aa7d;
-	border-width: .1em;
-	color: white;
+	background-color: #f6f6f6;
+	color: #3f3f3f;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
-	text-align: center;
-	font-size: 6em;
-	padding: 1em;
-	margin: 1em;
+	font-size: 4em;
+	height: 4em;
+
 }
 #apply:hover{
 	background-color: rgba(214,170,125,.7);
+}
+#applyButton{
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	vertical-align: middle;
+
 }
 #foot{
 	background-color: #3f3f3f;
@@ -196,22 +200,28 @@ body {
 		background-color: rgba(47, 47, 47, 0.5);
 	}
 	#uno{
+	height: 100%;
 	width: 40%;
 	float: left;
-	padding-top: 1em;
-	padding-bottom: .5em;
-	padding-left: 1em;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	text-align: left;
+	display: flex;
+	content-align:center;
+	vertical-align: middle;
+	justify-content:center;
+	align-items: center;
+	padding-left: 1em;
 	}
 	#dos{
-	width: 40%;
+	height: 100%;
 	float: right;
-	padding-top: 1em;
-	padding-bottom: .5em;
-	padding-right: 1em;
-	line-height: 1.2em;
+	line-height: 1.5em;
+	display: flex;
 	text-align: right;
+	align-items: center;
+	content-align:right;
+	padding-right: 1em;
+
 	}
 
 	table{
