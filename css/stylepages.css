@@ -82,14 +82,6 @@ body {
 	background-color: #82c0c0;
 }
 
-/*#scholarships{
-	width: 100%;
-	background-image: url(../images/sicilia.jpg);
-	background-position: top;
-	background-repeat:no-repeat;
-	background-size:100%;
-	color: white;
-}*/
 p{
 	text-decoration: none;
 	color: white;
@@ -146,28 +138,7 @@ p{
 	background-color: #d6aa7d;
 }
 
-/*#cArrow{
-	float: right;
-}
 
-#sArrow{
-	float: right;
-}*/
-
-/*#foot{
-	background-color: #3f3f3f;
-	color: white;
-	font-size: .8em;
-	width: 100%;
-	float:left;
-	position: fixed;
-	bottom: 0;
-	z-index: 999999;
-	height: 6em;
-	/*padding: .6em;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-}*/
 
 
 #menu{
@@ -189,8 +160,27 @@ p{
 	display:none;
 }
 
-#doit{
-	display: none;
+#apply{
+	display: inline-block;
+	background-color: #f6f6f6;
+	color: #3f3f3f;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	font-size: 4em;
+	height: 4em;
+	width: 100%
+
+}
+#apply:hover{
+	background-color: rgba(214,170,125,.7);
+}
+#applyButton{
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	vertical-align: middle;
+
 }
 
 @media (min-width: 750px){
@@ -320,21 +310,7 @@ body{
 #wsabar>p{
 	display:none;
 	}
-#doit{
-	display: flex;
-	justify-content: center;
-	background-image: url(../images/sicily.jpg);
-	width: 100%;
-	background-size: cover;
-	float: left;
-	height: 2em;
-	background-repeat:no-repeat;
-	color: white;
-	font-size: 7em;
-	padding-top: .1em;
-	text-align: center;
 
-}
 
 #uno{
 height: 100%;
@@ -360,23 +336,30 @@ content-align:right;
 padding-right: 1em;
 
 }
-
-
-#apply {
-	background-color: none;
-}
-#apply {
-	border: medium solid white;
-	margin-top: .3em;
-}
-#doit a #apply {
-	border: medium solid;
-	background-color: transparent;
-}
-#doit a #apply:hover {
-	background-color: rgba(255,255,255,.5);
-}
-
-a:-webkit-any-link{
-	color:white;
-}
+	#apply{
+		background-image: url(../images/pillars.jpg);
+		width: 100%;
+		background-size: cover;
+		background-repeat:no-repeat;
+		color: white;
+		font-size: 7em;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		content-align:center;
+		vertical-align: middle;
+		justify-content:center;
+		align-items: center;
+		}
+	#applyButton{
+		height: 2em;
+		border-color: #3f3f3f;
+		border: solid;
+		color:#f6f6f6;
+		cursor: pointer;
+		width: 3em;
+	}
+	#applyButton:hover{
+		background-color: rgba(47, 47, 47, 0.5);
+	}
+	}
