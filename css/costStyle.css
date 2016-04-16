@@ -2,7 +2,7 @@ body, p, div, section, p, a, div{
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
-	color: none;
+
 }
 body {
 	background-color: white;
@@ -93,7 +93,6 @@ body {
 }
 #costbar{
 	text-align: center;
-	font-size: 1.15em;
 	padding: 1.5em;
 	overflow: hidden;
 	margin-bottom: 0;
@@ -113,9 +112,72 @@ body {
 	padding: 1.5em;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
-	font-size: 1.15em;
 	background-color: #d6aa7d;
 }
+#apply{
+	display: inline-block;
+	background-color: #f6f6f6;
+	color: #3f3f3f;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	font-size: 4em;
+	height: 4em;
+	width: 100%
+
+}
+#apply:hover{
+	background-color: rgba(214,170,125,.7);
+}
+#applyButton{
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	vertical-align: middle;
+
+}
+
+table{
+	width: 100%;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 100;
+	font-size: .6em;
+	text-align: left;
+	line-height: 2em;
+}
+th{
+	color: #3f3f3f;
+}
+tr{
+	margin-left: .8em;
+}
+tr:hover{
+	background-color: #82c0c0;
+	color: white;
+}
+a{
+	color: black;
+}
+
+.nav-tabs > li > a{
+	color: white;
+	display: flex;
+	content-align:center;
+	vertical-align: middle;
+	justify-content:center;
+	align-items: center;
+	padding,margin: 0;
+	height: 3em;
+	align-self:center;
+}
+.nav-tabs>li{
+	width: 100% !important;
+
+
+
+}
+
+
 
 
 @media (min-width:750px){
@@ -186,23 +248,25 @@ body {
 		width: 100%;
 		font-family: "Helvetica", sans-serif;
 		font-weight: 100;
-	}
-	tr:hover{
-		background-color: #3f3f3f;
-		color: white;
+		font-size: .6em;
+		text-align: left;
+		line-height: 2em;
 	}
 	th{
-		padding-top: 2em;
+		color: #3f3f3f;
 	}
-	td{
-		padding-top: .1em;
+	tr{
+		margin-left: .8em;
 	}
-	a{
+	tr:hover{
+		background-color: #82c0c0;
 		color: white;
 	}
-	.tab-pane{
-		padding: 2em;
+
+	a{
+		color: black;
 	}
+
 	#apply{
 		background-image: url(../images/pillars.jpg);
 		width: 100%;
@@ -229,6 +293,11 @@ body {
 	#applyButton:hover{
 		background-color: rgba(47, 47, 47, 0.5);
 	}
+	.nav-tabs>li{
+	width: 50% !important;
+	float: left !important;
+	height: auto;
+}
 
 }
 
