@@ -163,7 +163,6 @@ p{
 	display: inline-block;
 	background-color: #f6f6f6;
 	color: #3f3f3f;
-	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	font-size: 4em;
 	height: 4em;
@@ -231,7 +230,6 @@ body{
 	color: black;
 	text-align: center;
 	padding: 2.3em;
-	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	font-size: 1.5em;
 

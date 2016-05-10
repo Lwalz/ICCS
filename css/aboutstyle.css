@@ -5,6 +5,8 @@ body, p, div, section, p, a, div{
 	color: none;
 }
 *{
+	font-family: 'Noto Sans', sans-serif;
+
 	margin: 0;
 	padding: 0;
 	line-height: normal;
@@ -22,8 +24,7 @@ body {
 }
 #main{
 	color: white;
-	background-color: #d6aa7d; 
-	font-family: "Helvetica", sans-serif;
+	background-color: #d6aa7d; ;
 	font-weight: 100;
 	width: 100%;
 	font-size: 4em;
@@ -65,8 +66,7 @@ body {
 }
 #mission{
 	text-align: center;
-	padding: 1.5em;
-	font-family: "Helvetica", sans-serif;
+	padding: 1.5em;;
 	font-weight: 100;
 	background-color: #82c0c0;
 	color: white;
@@ -74,8 +74,7 @@ body {
 }
 #apply{
 	background-color: #f6f6f6;
-	color: #3f3f3f;
-	font-family: "Helvetica", sans-serif;
+	color: #3f3f3f;;
 	font-weight: 100;
 	font-size: 4em;
 	height: 4em;
@@ -99,7 +98,6 @@ body {
 	width: 100%;
 	float: left;
 	height: 8em;
-	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	display: inline-block;
 	padding-top: 0em;

@@ -1,3 +1,9 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Noto Sans', sans-serif;
+
+}
 #self{
 	border: solid;
 	background-color: #82c0c0;
@@ -10,7 +16,6 @@
 #main{
 	background-color: #82c0c0;
 	color: white;
-	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	width: 100%;
 	font-size: 4em;
@@ -22,7 +27,6 @@
 	height: 100%;
 	font-size: 1.5em;
 	color: white;
-	font-family: "helvettica", sans-serif;
 	font-weight: 100%;
 	display: flex;
 	align-items:center;
@@ -35,7 +39,6 @@
 }
 
 #more{
-	/* [disabled]height: 5.4em; */
 	background-color: #d6aa7d;
 	display: none;
 	height: 5em;
@@ -47,7 +50,6 @@
 #banner {
 	width: 100%;
 }
-<<<<<<< HEAD
 #foot{
 	background-color: #3f3f3f;
 	color: white;
@@ -56,7 +58,6 @@
 	float: left;
 	height: 8em;
 	padding: .6em;
-	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	display: inline-block;
 }
@@ -73,11 +74,6 @@
 	float: left;
 	position: relative;
 	height: 9em;
-	/*bottom:3em; */
-	/* [disabled]z-index: 280; */
-	/*height: 5em;*/
-	/* padding-left: 1em;
-	padding-right: 1em; */
 }
 .footer{	
 	position: relative;
@@ -115,7 +111,6 @@ padding-right: 1em;
 #apply{
 	background-color: #f6f6f6;
 	color: #3f3f3f;
-	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 	font-size: 4em;
 	height: 4em;
