@@ -12,6 +12,9 @@ body {
 	background-color: #82c0c0;
 	height: 100%;
 }
+a{
+	color:white;
+}
 
 .others:hover{
 	background-color: white;
