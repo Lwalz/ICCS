@@ -1,7 +1,6 @@
 body, div, section, p, head, a{
 	margin: 0;
 	padding: 0;
-
 }
 *{
 	padding: 0;
@@ -15,10 +14,15 @@ body, div, section, p, head, a{
 #mobilebanner{
 	width: 100%;
 	background-color: white;
+	height:100%;
 }
 body{
-font-family: 'Noto Sans', sans-serif;
-background-color: #82c0c0;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #82c0c0;
+}
+#top{
+	padding:0;
+	margin: 0;
 }
 #info-bar{
 	color: white;
@@ -36,33 +40,29 @@ background-color: #82c0c0;
 	display: none;
 }
 #about{
-background-image: url(../images/palpatine.jpg);
-background-position: top;
-background-repeat:no-repeat;
-background-size:100%;
+	background-image: url(../images/palpatine.jpg);
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size:100%;
 }
 #academics{
-background-image:url(../images/squad.jpg);
-background-position: center;
-background-repeat:no-repeat;
-background-size:100%;
+	background-image:url(../images/squad.jpg);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:100%;
 }
 #sites{
-background-image: url(../images/terracine3.jpg);
-background-position: bottom;
-background-repeat:no-repeat;
-background-size:100%;
+	background-image: url(../images/terracine3.jpg);
+	background-position: bottom;
+	background-repeat:no-repeat;
+	background-size:100%;
 }
 #costs{
-background-image: url(../images/walkway.jpg);
-background-position: bottom;
-background-repeat:no-repeat;
-background-size:100%;
+	background-image: url(../images/walkway.jpg);
+	background-position: bottom;
+	background-repeat:no-repeat;
+	background-size:100%;
 }
-/*p:hover {
-	font-size: 110%;
-	-webkit-transition: ease-in-out;
-}*/
 .o-bar{
 	color: white;
 	font-size: 2.7em;
@@ -99,11 +99,6 @@ background-size:100%;
 	font-family: "Helvetica", sans-serif;
 	font-weight: 100;
 }
-
-
-#container{
-	margin-bottom: 4.5em;
-}
 #top-banner{
 	background-color: white;
 }
@@ -118,11 +113,6 @@ background-size:100%;
 	float: left;
 	position: relative;
 	height: 9em;
-	/*bottom:3em; */
-	/* [disabled]z-index: 280; */
-	/*height: 5em;*/
-	/* padding-left: 1em;
-	padding-right: 1em; */
 }
 .footer{	
 	position: relative;
@@ -131,27 +121,27 @@ background-size:100%;
 }
 
 #uno{
-height: 100%;
-width: 40%;
-float: left;
-line-height: 1.5em;
-text-align: left;
-display: flex;
-content-align:center;
-vertical-align: middle;
-justify-content:center;
-align-items: center;
-padding-left: 1em;
+	height: 100%;
+	width: 40%;
+	float: left;
+	line-height: 1.5em;
+	text-align: left;
+	display: flex;
+	align-content: :center;
+	vertical-align: middle;
+	justify-content:center;
+	align-items: center;
+	padding-left: 1em;
 }
 #dos{
-height: 100%;
-float: right;
-line-height: 1.5em;
-display: flex;
-text-align: right;
-align-items: center;
-content-align:right;
-padding-right: 1em;
+	height: 100%;
+	float: right;
+	line-height: 1.5em;
+	display: flex;
+	text-align: right;
+	align-items: center;
+	align-content:right;
+	padding-right: 1em;
 
 }
 #apply{
@@ -213,54 +203,13 @@ body{
 	align-items: center;
 	align-content: center;
 	width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
->>>>>>> parent of 8d45f41... Revert "gshfm"
-/* 	height: 7.5em; */
-=======
 	height: 2.5em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 2.5em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 2.5em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 2.5em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-<<<<<<< HEAD
-=======
-	height: 2.5em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 2.5em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-<<<<<<< HEAD
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
-	height: 2.5em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
->>>>>>> parent of 8d45f41... Revert "gshfm"
 	padding: 0;
 	margin: 0;
 	background-color: #82c0c0;
 }
 .o-bar{
-	/*width: 10%;*/
-	/*float: left;*/
 	font-size: 1.5em;
-	/*background-color: #82c0c0;*/
 	height: auto;
 	flex-basis: 15%;
 	text-align: center;
@@ -272,199 +221,22 @@ body{
 #about{
 	background-image: none;
 	color: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	padding: 1em;
-	/* height: 1.7em; */
-=======
 	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-<<<<<<< HEAD
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-<<<<<<< HEAD
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	/*margin: auto;
-	border-style: hidden;
-	border-color: white;
-	padding-top: 0;
-	border-radius: .01em;*/
 }
 #academics{
 	background-image: none;
 	color: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	padding: 1em;
-	/* height: 1.7em; */
-=======
 	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-<<<<<<< HEAD
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-<<<<<<< HEAD
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	/*margin: auto;
-	border-style: hidden;
-	border-color: white;
-	padding-top: 0;
-	border-radius: .01em;*/
 }
 #sites{
 	background-image: none;
 	color: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	padding: 1em;
-	/* height: 1.7em; */
-=======
 	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-<<<<<<< HEAD
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-<<<<<<< HEAD
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	/*margin: auto;
-	border-style: hidden;
-	border-color: white;
-	padding-top: 0;
-	border-radius: .01em;*/
 }
 #costs{
 	background-image: none;
 	color: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	padding: 1em;
-	/* height: 1.7em; */
-=======
 	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-<<<<<<< HEAD
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-<<<<<<< HEAD
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
-	height: 1.7em;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	/*margin: auto;
-	padding-right: none;
-	border-style: hidden;
-	border-color: white;
-	padding-top: none;
-	border-radius: .01em;*/
 }
 #about>a {
 	padding: 0;
@@ -477,40 +249,6 @@ body{
 #about>a:hover{
 	background-color: white;
 	color: #82c0c0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	/* padding: .8;
-	border-radius: 0; */
-=======
-=======
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-<<<<<<< HEAD
-=======
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
-=======
-<<<<<<< HEAD
->>>>>>> parent of 80b56f0... Revert "fdhjlbkjhgf"
-=======
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
->>>>>>> parent of 8d45f41... Revert "gshfm"
-	border-radius: 0;
->>>>>>> parent of c5bcbe1... fdhjlbkjhgf
 }
 #academics>a {
 	padding: 0;
@@ -522,7 +260,6 @@ body{
 #academics>a:hover{
 	background-color:white;
 	color: #82c0c0;
-	/* border-radius: .09em; */
 }
 #sites>a {
 	padding: 0;
@@ -534,7 +271,6 @@ body{
 #sites>a:hover{
 	background-color:white;
 	color: #82c0c0;
-	/* border-radius: .09em; */
 }
 #costs>a {
 	padding: 0;
@@ -546,39 +282,12 @@ body{
 #costs>a:hover{
 	background-color: white;
 	color: #82c0c0;
-	/* border-radius: 0; */
 }
-/*#applya{
-	text-align: center;
-	margin: 0;
-	float: none;
-	padding: 0;
-}
-#academicsa{
-	text-align: center;
-	margin: auto;
-	float: none;
-	padding: 0;
-}
-#sitesa{
-	text-align: center;
-	margin: auto;
-	float: none;
-	padding: 0;
-}
-#costsa{
-	text-align: center;
-	margin: auto;
-	float: none;
-	padding: 0;
-}*/
 #container{
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: 0;
-	/*height: 30em;*/
-	/*background-color: #82c0c0;*/
 }
 #top-banner{
 	background-color: none;
@@ -598,41 +307,7 @@ body{
 	background-color: none;
 	justify-content: center;
 	align-self: center;
-	/*padding-top: 25em;
-	padding-bottom: 5em;
-	float: left;
-	margin-left: 17em;*/
-
 }
-/*p:hover{
-	font-size: 100%;
-}*/
-/*#sites:hover{
-	background-color: white;
-	color: #82c0c0;
-	border-style: solid;
-	border-color: white;
-}
-#costs:hover{
-	background-color: white;
-	color: #82c0c0;
-	border-style: solid;
-	border-color: white;
-}
-#academics:hover{
-	background-color: white;
-	color: #82c0c0;
-	border-style: solid;
-	border-color: white;
-}
-#about:hover{
-	background-color: white;
-	color: #82c0c0;
-	border-style: solid;
-	border-color: white;
-}*/
-
-
 #doit{
 	display: inline-block;
 	justify-content: center;
@@ -647,59 +322,33 @@ body{
 	padding-top: 0em;
 	text-align: center;
 }
-/*#doit>a{
-	border-style: solid;
-	border-color: white;
-	border-collapse:collapse; 
-	margin-right:2.5em;
-	margin-left:2.5em;
-	margin-top: .3em;
-	margin-bottom: .4em;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-}*/
 #mobilebanner{
 	display: none;
 }
-/*a{
+#apply{
+	background-image: url(../images/pillars.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat:no-repeat;
 	color: white;
-	background-color: #82c0c0;
-	text-decoration: none;
+	font-size: 7em;
+	margin: 0;
 	padding: 0;
-	float: none;
-
-}
-a:hover{
-	color: #82c0c0;
-	background-color: white;
-	text-decoration: none;
-}
-*/
-	#apply{
-		background-image: url(../images/pillars.jpg);
-		width: 100%;
-		background-size: cover;
-		background-repeat:no-repeat;
-		color: white;
-		font-size: 7em;
-		margin: 0;
-		padding: 0;
-		display: flex;
-		content-align:center;
-		vertical-align: middle;
-		justify-content:center;
-		align-items: center;
-		}
-	#applyButton{
-		height: 2em;
-		border-color: #3f3f3f;
-		border: solid;
-		color:#f6f6f6;
-		cursor: pointer;
-		width: 3em;
+	display: flex;
+	content-align:center;
+	vertical-align: middle;
+	justify-content:center;
+	align-items: center;
 	}
-	#applyButton:hover{
-		background-color: rgba(47, 47, 47, 0.5);
-	}
+#applyButton{
+	height: 2em;
+	border-color: #3f3f3f;
+	border: solid;
+	color:#f6f6f6;
+	cursor: pointer;
+	width: 3em;
+}
+#applyButton:hover{
+	background-color: rgba(47, 47, 47, 0.5);
+}
 }
