@@ -12,7 +12,7 @@ body {
 	background-color: #82c0c0;
 	height: 100%;
 }
-a{
+a:-webkit-any-link {
 	color:white;
 }
 
