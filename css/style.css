@@ -111,42 +111,16 @@ body{
 #foot{
 	background-color: #3f3f3f;
 	color: white;
-	font-size: .8em;
+	font-size: 1.6em;
 	width: 100%;
 	float: left;
-	position: relative;
-	height: 9em;
-}
-.footer{	
-	position: relative;
-	width: 100%;
-
+	height: 8em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 0em;
 }
 
-#uno{
-	height: 100%;
-	width: 40%;
-	float: left;
-	line-height: 1.5em;
-	text-align: left;
-	display: flex;
-	align-content: :center;
-	vertical-align: middle;
-	justify-content:center;
-	align-items: center;
-	padding-left: 1em;
-}
-#dos{
-	height: 100%;
-	float: right;
-	line-height: 1.5em;
-	display: flex;
-	text-align: right;
-	align-items: center;
-	align-content:right;
-	padding-right: 1em;
 
-}
 #apply{
 	background-color: #f6f6f6;
 	color: #3f3f3f;
@@ -354,4 +328,30 @@ body{
 #applyButton:hover{
 	background-color: rgba(47, 47, 47, 0.5);
 }
+
+	#uno{
+	height: 100%;
+	width: 40%;
+	float: left;
+	line-height: 1.5em;
+	text-align: left;
+	display: flex;
+	content-align:center;
+	vertical-align: middle;
+	justify-content:center;
+	align-items: center;
+	padding-left: 1em;
+	}
+	#dos{
+	height: 100%;
+	float: right;
+	line-height: 1.5em;
+	display: flex;
+	text-align: right;
+	align-items: center;
+	content-align:right;
+	padding-right: 1em;
+
+	}
+
 }
