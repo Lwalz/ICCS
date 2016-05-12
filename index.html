@@ -11,6 +11,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700,400" rel="stylesheet" type="text/css">
 <script src="js/jquery-1.11.2.min.js"></script>
+<script src="apply.js" type="text/javascript" ></script>
 </head>
 <body>
 
@@ -57,6 +58,20 @@ For 50 years the Intercollegiate Center for Classical Studies in Rome (ICCS) has
 The Intercollegiate Center for Classical Studies in Rome (ICCS) was established in 1965 by representatives of ten American colleges and universities. The number of member institutions has now grown to over 100. It provides undergraduate students with an opportunity in Rome to study ancient history, archaeology, Greek and Latin literature, Italian language, and ancient art.
 </div></section>
 
+<form id="fillOut">
+    <fieldset>
+      <label for="fname">First name</label>
+      <input type="text" name="fname" id="fname" value="Jane" ><br>
+      <label for="lname">Last name</label>
+      <input type="text" name="lname" id="lname" value="Smith" ><br>
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" value="janesmith@gmail.com" ><br>
+ 
+      <!-- Allow form submission with keyboard without duplicating the dialog button -->
+      <input type="submit">
+    </fieldset>
+</form>
+
 <section id="apply">
       <div id="applyButton">apply
         </div>
@@ -67,6 +82,8 @@ The Intercollegiate Center for Classical Studies in Rome (ICCS) was established 
 <!--Sticky footer for mobile, static for desktop-->
 <section id="foot" class="footer"><div id="uno">Susan E. Pratt, Assistant Director/GEO Program Manager</div><div id="dos">Tel. (919) 684-2174<br>pratt.susan@duke.edu</div>
 </section>
+
+
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>

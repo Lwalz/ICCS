@@ -6,6 +6,9 @@ body, div, section, p, head, a{
 	padding: 0;
 	margin: 0;
 }
+#fillOut{
+	display:none;
+}
 #banner{
 	padding: 3em;
 	width: 100%;
