@@ -568,15 +568,6 @@ tab-pane {
 .glyphicon-screenshot:before {
   content: "\e087";
 }
-.glyphicon-remove-circle:before {
-  content: "\e088";
-}
-.glyphicon-ok-circle:before {
-  content: "\e089";
-}
-.glyphicon-ban-circle:before {
-  content: "\e090";
-}
 .glyphicon-arrow-left:before {
   content: "\e091";
 }
@@ -687,18 +678,6 @@ tab-pane {
 }
 .glyphicon-hand-down:before {
   content: "\e130";
-}
-.glyphicon-circle-arrow-right:before {
-  content: "\e131";
-}
-.glyphicon-circle-arrow-left:before {
-  content: "\e132";
-}
-.glyphicon-circle-arrow-up:before {
-  content: "\e133";
-}
-.glyphicon-circle-arrow-down:before {
-  content: "\e134";
 }
 .glyphicon-globe:before {
   content: "\e135";
@@ -6262,18 +6241,6 @@ button.close {
   text-align: center;
   list-style: none;
 }
-.carousel-indicators li {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
-  border-radius: 10px;
-}
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
@@ -6317,9 +6284,6 @@ button.close {
     right: 20%;
     left: 20%;
     padding-bottom: 30px;
-  }
-  .carousel-indicators {
-    bottom: 20px;
   }
 }
 .clearfix:before,
