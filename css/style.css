@@ -189,7 +189,7 @@ body{
 .o-bar{
 	font-size: 1.5em;
 	height: auto;
-	flex-basis: 15%;
+	flex-basis: 25%;
 	text-align: center;
 	font-family: "Helvetica light", sans-serif;
 	font-weight: 100;
@@ -217,11 +217,9 @@ body{
 	height: 1.7em;
 }
 #about>a {
-	padding: 0;
 	float: none;
-	padding-bottom:.6em;
-	padding-left:.9em;
-	padding-right:.9em;
+	height: 100%;
+	width: 100%;
 }
 
 #about>a:hover{
@@ -229,33 +227,27 @@ body{
 	color: #82c0c0;
 }
 #academics>a {
-	padding: 0;
 	float: none;
-	padding-bottom:.6em;
-	padding-left:.9em;
-	padding-right:.9em;
+	height: 100%;
+	width: 100%;
 }
 #academics>a:hover{
 	background-color:white;
 	color: #82c0c0;
 }
 #sites>a {
-	padding: 0;
 	float: none;
-	padding-bottom:.6em;
-	padding-left:.9em;
-	padding-right:.9em;
+	height: 100%;
+	width: 100%;
 }
 #sites>a:hover{
 	background-color:white;
 	color: #82c0c0;
 }
 #costs>a {
-	padding: 0;
 	float: none;
-	padding-bottom:.6em;
-	padding-left:.9em;
-	padding-right:.9em;
+	height: 100%;
+	width: 100%;
 }
 #costs>a:hover{
 	background-color: white;
