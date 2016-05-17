@@ -186,6 +186,7 @@ a {
 	padding: .6%;
 	float: left;
 	opacity: .6;
+	height: 100%;
 }
 #foot {
 	float: left;
@@ -195,6 +196,7 @@ a {
 	padding: .6%;
 	float: left;
 	opacity: 0.6;
+	height: 100%;
 }
 .jumbotron h1 {
 	font-size: 2em;
@@ -204,6 +206,7 @@ a {
 	padding: .6%;
 	float: left;
 	opacity: 0.6;
+	height: 100%;
 }
 #columnSite1:hover {
 	opacity: 1;
