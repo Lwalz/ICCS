@@ -188,7 +188,7 @@ body{
 }
 .o-bar{
 	font-size: 1.5em;
-	height: auto;
+	height: 100%;
 	flex-basis: 25%;
 	text-align: center;
 	font-family: "Helvetica light", sans-serif;
