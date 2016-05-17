@@ -4864,20 +4864,13 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
-.jumbotron {
-	padding: 30px 15px;
-	margin-bottom: 0px;
-	color: #F9F9F9;
-	background-color: #B6B6B6;
-}
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
 }
 .jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
+	font-size: 21px;
+	font-weight: 200;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4890,9 +4883,6 @@ a.badge:focus {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .jumbotron {
-    padding: 48px 0;
-  }
   .container .jumbotron,
   .container-fluid .jumbotron {
     padding-right: 60px;

@@ -173,6 +173,7 @@ a {
 }
 .jumbotron {
 	width: 100%;
+	height: 20em;
 }
 .jumbotron p {
 	padding: 1em;
