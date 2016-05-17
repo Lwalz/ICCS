@@ -218,7 +218,6 @@ body{
 }
 #about>a {
 	float: none;
-	height: 100%;
 	width: 100%;
 }
 
@@ -228,7 +227,6 @@ body{
 }
 #academics>a {
 	float: none;
-	height: 100%;
 	width: 100%;
 }
 #academics>a:hover{
@@ -237,7 +235,6 @@ body{
 }
 #sites>a {
 	float: none;
-	height: 100%;
 	width: 100%;
 }
 #sites>a:hover{
@@ -246,7 +243,6 @@ body{
 }
 #costs>a {
 	float: none;
-	height: 100%;
 	width: 100%;
 }
 #costs>a:hover{
