@@ -199,22 +199,22 @@ body{
 #about{
 	background-image: none;
 	color: white;
-	height: 1.7em;
+	height: 100%;
 }
 #academics{
 	background-image: none;
 	color: white;
-	height: 1.7em;
+	height: 100%;
 }
 #sites{
 	background-image: none;
 	color: white;
-	height: 1.7em;
+	height: 100%;
 }
 #costs{
 	background-image: none;
 	color: white;
-	height: 1.7em;
+	height: 100%;
 }
 #about>a {
 	float: none;
