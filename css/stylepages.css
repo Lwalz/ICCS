@@ -5,9 +5,9 @@ body, p, div, section, p, a, img{
 	color: white;
 	font-family: 'Noto Sans', sans-serif;
 }
-* { 
-	margin: 0; padding: 0; 
-} 
+* {
+	margin: 0; padding: 0;
+}
 body {
 	background-color: #82c0c0;
 	height: 100%;
@@ -56,7 +56,7 @@ a:-webkit-any-link {
 
 #main{
 	color: white;
-	background-color: #d6aa7d; 
+	background-color: #d6aa7d;
 	font-weight: 100;
 	width: 100%;
 	font-size: 4em;
@@ -207,7 +207,7 @@ body{
 	text-align:center;
 	color: black;
 	text-align: center;
-	padding: 2.3em;
+	padding: 4em;
 	font-weight: 100;
 	font-size: 1.5em;
 
@@ -259,9 +259,7 @@ body{
 	float:left;
 	height:13em;
 }
-#main{
-	display:none;
-}
+
 #banner{
 	display: none;
 	width:50%;
@@ -360,5 +358,8 @@ body{
 	}
 	#applyButton:hover{
 		background-color: rgba(47, 47, 47, 0.5);
+	}
+	a{
+		min-height: 3em;
 	}
 	}
