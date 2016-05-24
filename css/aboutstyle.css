@@ -1,294 +1,324 @@
-body, p, div, section, p, a, div{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	color: none;
-}
-*{
-	font-family: 'Noto Sans', sans-serif;
-
-	margin: 0;
-	padding: 0;
-	line-height: normal;
-}
-#readMore{
-	display: none;
-}
-ul{
-	list-style: none;
-}
-#facultyExpand{
-
-	list-style: none;
-	width: 100%;
-	text-align: center;
-	position: static;
-	background-color: #d6aa7d;
-	color: white;
-	font-size: 6em;
-	overflow: scroll;
-	height: auto;
-
-
-}
-.title{
-	font-size: 1.7em;
-}
-.nugget{
-	float: left;
-	width: 16.6667%;
-	opacity: .6;
-}
-.nugget:hover{
-	opacity: 1;
+body, p, div, section, p, a, div {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: none;
 }
 
-#oneTxt{
-	display: none;
-	height: 100%;
-	font-size: .2em;
-	max-height: 100%;
-	padding: 1.5em;
+* {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
 
+#readMore {
+  display: none;
 }
-#twoTxt{
-	display: none;
-	height: 100%;
-	font-size: .2em;
-	max-height: 100%;
-	padding: 1.5em;
+
+ul {
+  list-style: none;
 }
-#threeTxt{
-	display: none;
-	height: 100%;
-	font-size: .2em;
-	max-height: 100%;
-	padding: 1.5em;
+
+#facultyExpand {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  position: static;
+  background-color: #d6aa7d;
+  color: white;
+  font-size: 6em;
+  overflow: scroll;
+  height: auto;
 }
-#fourTxt{
-	display: none;
-	height: 100%;
-	font-size: .2em;
-	max-height: 100%;
-	padding: 1.5em;
+
+.title {
+  font-size: 1.7em;
 }
-#fiveTxt{
-	display: none;
-	height: 100%;
-	font-size: .2em;
-	max-height: 100%;
-	padding: 1.5em;
-}#sixTxt{
-	display: none;
-	height: 100%;
-	font-size: .2em;
-	max-height: 100%;
-	padding: 1.5em;
+
+.nugget {
+  float: left;
+  width: 16.6667%;
+  opacity: .6;
 }
-#readMoreButton{
-	background-color: white;
-	color: #82c0c0;
-	height: 4em;
-	width: 12em;
-	border: none;
-	border-radius: 8em;
-	margin-top: 2em;
-	font-size: 1em;
-	box-shadow: 10px 10px 5px rgba(86, 185, 217, 0.55);
+
+.nugget:hover {
+  opacity: 1;
 }
-#readMoreButton:hover{
-	box-shadow: 10px 10px 5px white;
-	background-color: #82c0c0;
-	color: white;
-	cursor: pointer;
+
+#oneTxt {
+  display: none;
+  height: 100%;
+  font-size: .2em;
+  max-height: 100%;
+  padding: 1.5em;
 }
+
+#twoTxt {
+  display: none;
+  height: 100%;
+  font-size: .2em;
+  max-height: 100%;
+  padding: 1.5em;
+}
+
+#threeTxt {
+  display: none;
+  height: 100%;
+  font-size: .2em;
+  max-height: 100%;
+  padding: 1.5em;
+}
+
+#fourTxt {
+  display: none;
+  height: 100%;
+  font-size: .2em;
+  max-height: 100%;
+  padding: 1.5em;
+}
+
+#fiveTxt {
+  display: none;
+  height: 100%;
+  font-size: .2em;
+  max-height: 100%;
+  padding: 1.5em;
+}
+
+#sixTxt {
+  display: none;
+  height: 100%;
+  font-size: .2em;
+  max-height: 100%;
+  padding: 1.5em;
+}
+
+#readMoreButton {
+  background-color: white;
+  color: #82c0c0;
+  height: 4em;
+  width: 12em;
+  border: none;
+  border-radius: 8em;
+  margin-top: 2em;
+  font-size: 1em;
+  box-shadow: 10px 10px 5px rgba(86, 185, 217, 0.55);
+}
+
+#readMoreButton:hover {
+  box-shadow: 10px 10px 5px white;
+  background-color: #82c0c0;
+  color: white;
+  cursor: pointer;
+}
+
 body {
-	background-color: white;
-	height: 100%;
+  background-color: white;
+  height: 100%;
 }
+
 #top-banner {
-	width: 100%;
-	background-color: white;
+  width: 100%;
+  background-color: white;
 }
+
 #banner {
-	width: 100%;
+  width: 100%;
 }
-#main{
-	color: white;
-	background-color: #d6aa7d; ;
+
+#main {
+  color: white;
+  background-color: #d6aa7d;
+  ;
 	font-weight: 100;
-	width: 100%;
-	font-size: 4em;
-	height: 2.8em;
+  width: 100%;
+  font-size: 4em;
+  height: 2.8em;
 }
-#more{
-	display: none;
-	height: 5em;
-	width: 100%;
-	text-align: center;
-	background-color: #82c0c0;
-	vertical-align: middle;
+
+#more {
+  display: none;
+  height: 5em;
+  width: 100%;
+  text-align: center;
+  background-color: #82c0c0;
+  vertical-align: middle;
 }
-#aboutContain{
-	display: flex;
-	vertical-align: middle;
-	text-align: center;
-	align-items:center;
-	justify-content:center;
-	height: 100%;
+
+#aboutContain {
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
-.others:hover{
-	background-color: white;
-	color: #d6aa7d;
+
+.others:hover {
+  background-color: white;
+  color: #d6aa7d;
 }
+
 .others {
-	width: 25%;
-	float: left;
-	height: 100%;
-	font-size: 1.5em;
-	color: white;
-	font-weight: 100%;
-	display: flex;
-	vertical-align: middle;
-	text-align: center;
-	align-items:center;
-	justify-content:center;
+  width: 25%;
+  float: left;
+  height: 100%;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 100%;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-#mission{
-	text-align: center;
-	padding: 1.5em;;
+
+#mission {
+  text-align: center;
+  padding: 1.5em;
+  ;
 	font-weight: 100;
-	background-color: #82c0c0;
-	color: white;
-	font-size: 2em;
+  background-color: #82c0c0;
+  color: white;
+  font-size: 2em;
 }
-#apply{
-	background-color: #f6f6f6;
-	color: #3f3f3f;;
+
+#apply {
+  background-color: #f6f6f6;
+  color: #3f3f3f;
+  ;
 	font-weight: 100;
-	font-size: 4em;
-	height: 4em;
-
-}
-#apply:hover{
-	background-color: rgba(214,170,125,.7);
-}
-#applyButton{
-	height: 100%;
-	display: flex;
-	justify-content:center;
-	align-items:center;
-	vertical-align: middle;
-
-}
-#foot{
-	background-color: #3f3f3f;
-	color: white;
-	font-size: 1.6em;
-	width: 100%;
-	float: left;
-	height: 8em;
-	font-weight: 100;
-	display: inline-block;
-	padding-top: 0em;
-}
-#jumbo{
-	display: none;
+  font-size: 4em;
+  height: 4em;
 }
 
-@media (min-width:750px){
-	#top-banner{
-		width: 30%;
-		float: left;
-		height: 13em;
-		display: flex;
-    	align-items: center;
+#apply:hover {
+  background-color: rgba(214,170,125,.7);
+}
 
-	}
-	#jumbo{
-		display: inline-block;
-		width: 100%;
-	}
-	#main{
-		display: none;
-	}
-	#more{
-		display: inline-block;
-		background-color: white;
-		color: #82c0c0;
-		width: 70%;
-		float: left;
-		height: 13em;
-		margin: 0 auto;
+#applyButton {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
 
-	}
-	.others{
-		font-size: 2em;
-		color: #82c0c0;
-		width: 25%;
-		display: flex;
-    	align-items: center;
-    	justify-content:center;
+#foot {
+  background-color: #3f3f3f;
+  color: white;
+  font-size: 1.6em;
+  width: 100%;
+  float: left;
+  height: 8em;
+  font-weight: 100;
+  display: inline-block;
+  padding-top: 0em;
+}
 
-	}
-	.others:hover{
-		background-color: #82c0c0;
-		color: white;
-	}
-	#apply{
-		background-image: url(../images/pillars.jpg);
-		width: 100%;
-		background-size: cover;
-		background-repeat:no-repeat;
-		color: white;
-		font-size: 7em;
-		margin: 0;
-		padding: 0;
-		display: flex;
-		content-align:center;
-		vertical-align: middle;
-		justify-content:center;
-		align-items: center;
-		}
-	#applyButton{
-		height: 2em;
-		border-color: #3f3f3f;
-		border: solid;
-		box-shadow: 2,2,2,5;
-		cursor: pointer;
-		width: 3em;
-		color:rgb(213, 213, 213);
-	}
-	#applyButton:hover{
-		background-color: rgba(47, 47, 47, 0.5);
-	}
-	#uno{
-	height: 100%;
-	width: 40%;
-	float: left;
-	line-height: 1.5em;
-	text-align: left;
-	display: flex;
-	content-align:center;
-	vertical-align: middle;
-	padding-left: 1em;
-	align-items: center;
-	}
-	#dos{
-	height: 100%;
-	float: right;
-	line-height: 1.5em;
-	display: flex;
-	text-align: right;
-	align-items: center;
-	content-align:right;
-	padding-right: 1em;
+#jumbo {
+  display: none;
+}
 
-	}
-	#foot{
-		padding: 0;
-		margin: 0;
-	}
+@media (min-width:750px) {
+  #top-banner {
+    width: 30%;
+    float: left;
+    height: 13em;
+    display: flex;
+    align-items: center;
+  }
 
+  #jumbo {
+    display: inline-block;
+    width: 100%;
+  }
 
+  #main {
+    display: none;
+  }
+
+  #more {
+    display: inline-block;
+    background-color: white;
+    color: #82c0c0;
+    width: 70%;
+    float: left;
+    height: 13em;
+    margin: 0 auto;
+  }
+
+  .others {
+    font-size: 2em;
+    color: #82c0c0;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .others:hover {
+    background-color: #82c0c0;
+    color: white;
+  }
+
+  #apply {
+    background-image: url(../images/pillars.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 7em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    content-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #applyButton {
+    height: 2em;
+    border-color: #3f3f3f;
+    border: solid;
+    box-shadow: 2,2,2,5;
+    cursor: pointer;
+    width: 3em;
+    color: rgb(213, 213, 213);
+  }
+
+  #applyButton:hover {
+    background-color: rgba(47, 47, 47, 0.5);
+  }
+
+  #uno {
+    height: 100%;
+    width: 40%;
+    float: left;
+    line-height: 1.5em;
+    text-align: left;
+    display: flex;
+    content-align: center;
+    vertical-align: middle;
+    padding-left: 1em;
+    align-items: center;
+  }
+
+  #dos {
+    height: 100%;
+    float: right;
+    line-height: 1.5em;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    content-align: right;
+    padding-right: 1em;
+  }
+
+  #foot {
+    padding: 0;
+    margin: 0;
+  }
 }
