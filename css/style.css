@@ -319,7 +319,7 @@ a {
 	height: 2em;
 	border-color: #3f3f3f;
 	border: solid;
-	color:#f6f6f6;
+	color:rgb(47, 47, 47);
 	cursor: pointer;
 	width: 3em;
 }
@@ -350,6 +350,10 @@ a {
 	content-align:right;
 	padding-right: 1em;
 
+	}
+	#foot{
+		padding: 0;
+		margin: 0;
 	}
 
 }
