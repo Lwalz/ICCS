@@ -273,6 +273,7 @@ body {
 	content-align:center;
 	vertical-align: middle;
 	padding-left: 1em;
+	align-items: center;
 	}
 	#dos{
 	height: 100%;
