@@ -46,9 +46,5 @@ $(document).ready(function(){
 
 })
 
-function active(nug){
-	nug.click(function(){
-		nug=active;
-		return nug;
-	})
+
 }
