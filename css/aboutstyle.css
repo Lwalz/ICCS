@@ -285,7 +285,7 @@ body {
     box-shadow: 2,2,2,5;
     cursor: pointer;
     width: 3em;
-    color: rgb(213, 213, 213);
+    color: rgb(47,47,47);
   }
 
   #applyButton:hover {
