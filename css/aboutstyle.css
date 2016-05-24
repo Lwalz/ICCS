@@ -287,6 +287,10 @@ body {
 	padding-right: 1em;
 
 	}
+	#foot{
+		padding: 0;
+		margin: 0;
+	}
 
 
 }
