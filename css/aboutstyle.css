@@ -272,8 +272,6 @@ body {
 	display: flex;
 	content-align:center;
 	vertical-align: middle;
-	justify-content:center;
-	align-items: center;
 	padding-left: 1em;
 	}
 	#dos{
