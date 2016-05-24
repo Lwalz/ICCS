@@ -14,6 +14,9 @@ body, p, div, section, p, a, div{
 #readMore{
 	display: none;
 }
+ul{
+	list-style: none;
+}
 #facultyExpand{
 
 	list-style: none;
