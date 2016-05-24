@@ -11,6 +11,92 @@ body, p, div, section, p, a, div{
 	padding: 0;
 	line-height: normal;
 }
+#readMore{
+	display: none;
+}
+#facultyExpand{
+
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	position: static;
+	background-color: #d6aa7d;
+	color: white;
+	font-size: 6em;
+	overflow: scroll;
+	height: 4em;
+
+
+}
+.nugget{
+	float: left;
+	width: 16.6667%;
+	opacity: .6;
+}
+.nugget:hover{
+	opacity: 1;
+}
+
+#oneTxt{
+	display: none;
+	height: 100%;
+	font-size: .2em;
+	max-height: 100%;
+	padding: 1em;
+	width: 100%;
+	float: left;
+}
+#twoTxt{
+	display: none;
+	height: 100%;
+	font-size: .2em;
+	max-height: 100%;
+	padding: 1em;
+}
+#threeTxt{
+	display: none;
+	height: 100%;
+	font-size: .2em;
+	max-height: 100%;
+	padding: 1em;
+}
+#fourTxt{
+	display: none;
+	height: 100%;
+	font-size: .2em;
+	max-height: 100%;
+	padding: 1em;
+}
+#fiveTxt{
+	display: none;
+	height: 100%;
+	font-size: .2em;
+	max-height: 100%;
+	padding: 1em;
+}#sixTxt{
+	display: none;
+	height: 100%;
+	font-size: .2em;
+	max-height: 100%;
+	padding: 1em;
+}
+#readMoreButton{
+	background-color: white;
+	color: #82c0c0;
+	height: 4em;
+	width: 12em;
+	border: none;
+	border-radius: 8em;
+	margin-top: 2em;
+	font-size: 1em;
+	box-shadow: 10px 10px 5px rgba(86, 185, 217, 0.55);
+}
+#readMoreButton:hover{
+	box-shadow: 10px 10px 5px white;
+	background-color: #82c0c0;
+	color: white;
+	cursor: pointer;
+}
 body {
 	background-color: white;
 	height: 100%;
@@ -164,9 +250,10 @@ body {
 		height: 2em;
 		border-color: #3f3f3f;
 		border: solid;
-		color:#f6f6f6;
+		box-shadow: 2,2,2,5;
 		cursor: pointer;
 		width: 3em;
+		color:rgb(213, 213, 213);
 	}
 	#applyButton:hover{
 		background-color: rgba(47, 47, 47, 0.5);
@@ -196,5 +283,5 @@ body {
 
 	}
 
-}
 
+}
