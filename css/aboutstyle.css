@@ -24,9 +24,12 @@ body, p, div, section, p, a, div{
 	color: white;
 	font-size: 6em;
 	overflow: scroll;
-	height: 4em;
+	height: auto;
 
 
+}
+.title{
+	font-size: 1.7em;
 }
 .nugget{
 	float: left;
@@ -42,43 +45,42 @@ body, p, div, section, p, a, div{
 	height: 100%;
 	font-size: .2em;
 	max-height: 100%;
-	padding: 1em;
-	width: 100%;
-	float: left;
+	padding: 1.5em;
+
 }
 #twoTxt{
 	display: none;
 	height: 100%;
 	font-size: .2em;
 	max-height: 100%;
-	padding: 1em;
+	padding: 1.5em;
 }
 #threeTxt{
 	display: none;
 	height: 100%;
 	font-size: .2em;
 	max-height: 100%;
-	padding: 1em;
+	padding: 1.5em;
 }
 #fourTxt{
 	display: none;
 	height: 100%;
 	font-size: .2em;
 	max-height: 100%;
-	padding: 1em;
+	padding: 1.5em;
 }
 #fiveTxt{
 	display: none;
 	height: 100%;
 	font-size: .2em;
 	max-height: 100%;
-	padding: 1em;
+	padding: 1.5em;
 }#sixTxt{
 	display: none;
 	height: 100%;
 	font-size: .2em;
 	max-height: 100%;
-	padding: 1em;
+	padding: 1.5em;
 }
 #readMoreButton{
 	background-color: white;

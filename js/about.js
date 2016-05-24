@@ -10,26 +10,45 @@ $(document).ready(function(){
 
 	$('#one').click(function(){
 		$('#oneTxt').toggle('slow');
+		$(this).siblings().toggle();
+
 	})
 
 	$('#two').click(function(){
 		$('#twoTxt').toggle('slow');
+		$(this).siblings().toggle();
+
 	})
 
 	$('#three').click(function(){
 		$('#threeTxt').toggle('slow');
+		$(this).siblings().toggle();
+
 	})
 
 	$('#four').click(function(){
 		$('#fourTxt').toggle('slow');
+		$(this).siblings().toggle();
+
 	})
 
 	$('#five').click(function(){
 		$('#fiveTxt').toggle('slow');
+		$(this).siblings().toggle();
+
 	})
 
 	$('#six').click(function(){
 		$('#sixTxt').toggle('slow');
+		$(this).siblings().toggle();
+
 	})
 
 })
+
+function active(nug){
+	nug.click(function(){
+		nug=active;
+		return nug;
+	})
+}
