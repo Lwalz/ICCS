@@ -1,359 +1,400 @@
-body, div, section, p, head, a{
-	margin: 0;
-	padding: 0;
-}
-*{
-	padding: 0;
-	margin: 0;
-}
-#fillOut{
-	display:none;
-}
-#banner{
-	padding: 3em;
-	width: 100%;
-	display: none;
-}
-#mobilebanner{
-	width: 100%;
-	background-color: white;
-	height:100%;
-}
-body{
-	font-family: 'Noto Sans', sans-serif;
-	background-color: #82c0c0;
-}
-#top{
-	padding:0;
-	margin: 0;
-}
-#info-bar{
-	color: white;
-	background-color: #82c0c0;
-	text-align: center;
-	padding: 1.8em;
-	line-height: 1.6em;
-	font-size: 1.1em;
-}
-#info-text{
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-}
-#info-bar2{
-	display: none;
-}
-#about{
-	background-image: url(../images/palpatine.jpg);
-	background-position: top;
-	background-repeat:no-repeat;
-	background-size:100%;
-}
-#academics{
-	background-image:url(../images/squad.jpg);
-	background-position: center;
-	background-repeat:no-repeat;
-	background-size:100%;
-}
-#sites{
-	background-image: url(../images/terracine3.jpg);
-	background-position: bottom;
-	background-repeat:no-repeat;
-	background-size:100%;
-}
-#costs{
-	background-image: url(../images/walkway.jpg);
-	background-position: bottom;
-	background-repeat:no-repeat;
-	background-size:100%;
-}
-.o-bar{
-	color: white;
-	font-size: 2.7em;
-	height: 3em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	vertical-align: middle;
-}
-#about>a{
-	float: right;
-	text-decoration: none;
-	color: white;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-}
-#academics>a{
-	float: left;
-	text-decoration: none;
-	color: white;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-}
-#sites>a{
-	float: right;
-	text-decoration: none;
-	color: white;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-}
-#costs>a{
-	float: left;
-	text-decoration: none;
-	color: white;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-}
-#top-banner{
-	background-color: white;
-}
-#doit{
-	width: 100%;
-}
-#foot{
-	background-color: #3f3f3f;
-	color: white;
-	font-size: 1.6em;
-	width: 100%;
-	float: left;
-	height: 8em;
-	font-weight: 100;
-	display: inline-block;
-	padding-top: 0em;
+body, div, section, p, head, a {
+  margin: 0;
+  padding: 0;
 }
 
-
-#apply{
-	background-color: #f6f6f6;
-	color: #3f3f3f;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	font-size: 4em;
-	height: 4em;
-
-}
-#apply:hover{
-	background-color: rgba(214,170,125,.7);
-}
-#applyButton{
-	height: 100%;
-	display: flex;
-	justify-content:center;
-	align-items:center;
-	vertical-align: middle;
-
+* {
+  padding: 0;
+  margin: 0;
 }
 
-@media (min-width:750px){
-
-body{
-	background-color: #3f3f3f;
+#fillOut {
+  display: none;
 }
 
-#carousel1 {
-	display: none;
-
-}
-#info-bar{
-	display: none;
-}
-#info-bar2{
-	display: block;
-	background-color: white;
-	color:#3f3f3f;
-	float: left;
-	text-align: center;
-	font-size: 1.1em;
-	padding-left: 6em;
-	padding-right: 6em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-#info-text2{
-	text-align: center;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
-#menu {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	width: 100%;
-	height: 6.5em;
-	padding: 0;
-	margin: 0;
-	background-color: #82c0c0;
-}
-.o-bar{
-	font-size: 1.5em;
-	height: 100%;
-	flex-basis: 25%;
-	text-align: center;
-	font-family: "Helvetica light", sans-serif;
-	font-weight: 100;
+#banner {
+  padding: 3em;
+  width: 100%;
+  display: none;
 }
 
+#mobilebanner {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+}
 
-#about{
-	background-image: none;
-	color: white;
-	height: 100%;
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #82c0c0;
 }
-#academics{
-	background-image: none;
-	color: white;
-	height: 100%;
+
+#top {
+  padding: 0;
+  margin: 0;
 }
-#sites{
-	background-image: none;
-	color: white;
-	height: 100%;
+
+#info-bar {
+  color: white;
+  background-color: #82c0c0;
+  text-align: center;
+  padding: 1.8em;
+  line-height: 1.6em;
+  font-size: 1.1em;
 }
-#costs{
-	background-image: none;
-	color: white;
-	height: 100%;
+
+#info-text {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
 }
+
+#info-bar2 {
+  display: none;
+}
+
+#about {
+  background-image: url(../images/palpatine.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#academics {
+  background-image: url(../images/squad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#sites {
+  background-image: url(../images/terracine3.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#costs {
+  background-image: url(../images/walkway.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.o-bar {
+  color: white;
+  font-size: 2.7em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
 #about>a {
-	float: none;
-	width: 100%;
-}
-a {
-	height: 100%;
-	display: flex;
-	vertical-align: middle;
-	align-content: center;
-	align-items: center;
-	justify-content: center;
+  float: right;
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
 }
 
-
-#about>a:hover{
-	background-color: white;
-	color: #82c0c0;
-}
 #academics>a {
-	float: none;
-	width: 100%;
+  float: left;
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
 }
-#academics>a:hover{
-	background-color:white;
-	color: #82c0c0;
-}
+
 #sites>a {
-	float: none;
-	width: 100%;
+  float: right;
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
 }
-#sites>a:hover{
-	background-color:white;
-	color: #82c0c0;
-}
+
 #costs>a {
-	float: none;
-	width: 100%;
-}
-#costs>a:hover{
-	background-color: white;
-	color: #82c0c0;
-}
-#container{
-	width: 100%;
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-}
-#top-banner{
-	background-color: none;
-	background-image: url(../images/DSC_0282.jpg);
-	margin: auto;
-	width: 100%;
-	background-repeat:no-repeat;
-	background-size: cover;
-	float: left;
-	height: 30em;
-	display: flex;
-	justify-content: center;
-}
-#banner{
-	display: flex;
-	width: 65%;
-	background-color: none;
-	justify-content: center;
-	align-self: center;
-}
-#doit{
-	display: inline-block;
-	justify-content: center;
-	background-image: url(../images/sicily.jpg);
-	width: 100%;
-	background-size: cover;
-	float: left;
-	height: 2em;
-	background-repeat: no-repeat;
-	color: white;
-	font-size: 7em;
-	padding-top: 0em;
-	text-align: center;
-}
-#mobilebanner{
-	display: none;
-}
-#apply{
-	background-image: url(../images/pillars.jpg);
-	width: 100%;
-	background-size: cover;
-	background-repeat:no-repeat;
-	color: white;
-	font-size: 7em;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	content-align:center;
-	vertical-align: middle;
-	justify-content:center;
-	align-items: center;
-	}
-#applyButton{
-	height: 2em;
-	border-color: #3f3f3f;
-	border: solid;
-	color:rgb(47, 47, 47);
-	cursor: pointer;
-	width: 3em;
-}
-#applyButton:hover{
-	background-color: rgba(47, 47, 47, 0.5);
+  float: left;
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
 }
 
-	#uno{
-	height: 100%;
-	width: 40%;
-	float: left;
-	line-height: 1.5em;
-	text-align: left;
-	display: flex;
-	content-align:center;
-	vertical-align: middle;
-	justify-content:center;
-	align-items: center;
-	padding-left: 1em;
-	}
-	#dos{
-	height: 100%;
-	float: right;
-	line-height: 1.5em;
-	display: flex;
-	text-align: right;
-	align-items: center;
-	content-align:right;
-	padding-right: 1em;
+#top-banner {
+  background-color: white;
+}
 
-	}
-	#foot{
-		padding: 0;
-		margin: 0;
-	}
+#doit {
+  width: 100%;
+}
 
+#foot {
+  background-color: #3f3f3f;
+  color: white;
+  font-size: 1.6em;
+  width: 100%;
+  float: left;
+  height: 8em;
+  font-weight: 100;
+  display: inline-block;
+  padding-top: 0em;
+}
+
+#apply {
+  background-color: #f6f6f6;
+  color: #3f3f3f;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+  font-size: 4em;
+  height: 4em;
+}
+
+#apply:hover {
+  background-color: rgba(214,170,125,.7);
+}
+
+#applyButton {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+@media (min-width:750px) {
+
+  body {
+    background-color: #3f3f3f;
+  }
+
+  #carousel1 {
+    display: none;
+  }
+
+  #info-bar {
+    display: none;
+  }
+
+  #info-bar2 {
+    display: block;
+    background-color: white;
+    color: #3f3f3f;
+    float: left;
+    text-align: center;
+    font-size: 1.1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  #info-text2 {
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 100;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  #menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 6.5em;
+    padding: 0;
+    margin: 0;
+    background-color: #82c0c0;
+  }
+
+  .o-bar {
+    font-size: 1.5em;
+    height: 100%;
+    flex-basis: 25%;
+    text-align: center;
+    font-family: "Helvetica light", sans-serif;
+    font-weight: 100;
+  }
+
+  #about {
+    background-image: none;
+    color: white;
+    height: 100%;
+  }
+
+  #academics {
+    background-image: none;
+    color: white;
+    height: 100%;
+  }
+
+  #sites {
+    background-image: none;
+    color: white;
+    height: 100%;
+  }
+
+  #costs {
+    background-image: none;
+    color: white;
+    height: 100%;
+  }
+
+  #about>a {
+    float: none;
+    width: 100%;
+  }
+
+  a {
+    height: 100%;
+    display: flex;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about>a:hover {
+    background-color: white;
+    color: #82c0c0;
+  }
+
+  #academics>a {
+    float: none;
+    width: 100%;
+  }
+
+  #academics>a:hover {
+    background-color: white;
+    color: #82c0c0;
+  }
+
+  #sites>a {
+    float: none;
+    width: 100%;
+  }
+
+  #sites>a:hover {
+    background-color: white;
+    color: #82c0c0;
+  }
+
+  #costs>a {
+    float: none;
+    width: 100%;
+  }
+
+  #costs>a:hover {
+    background-color: white;
+    color: #82c0c0;
+  }
+
+  #container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  #top-banner {
+    background-color: none;
+    background-image: url(../images/DSC_0282.jpg);
+    margin: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+  }
+
+  #banner {
+    display: flex;
+    width: 65%;
+    background-color: none;
+    justify-content: center;
+    align-self: center;
+  }
+
+  #doit {
+    display: inline-block;
+    justify-content: center;
+    background-image: url(../images/sicily.jpg);
+    width: 100%;
+    background-size: cover;
+    float: left;
+    height: 2em;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 7em;
+    padding-top: 0em;
+    text-align: center;
+  }
+
+  #mobilebanner {
+    display: none;
+  }
+
+  #apply {
+    background-image: url(../images/pillars.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 7em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    content-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #applyButton {
+    height: 2em;
+    border-color: #3f3f3f;
+    border: solid;
+    color: rgb(47, 47, 47);
+    cursor: pointer;
+    width: 3em;
+  }
+
+  #applyButton:hover {
+    background-color: rgba(47, 47, 47, 0.5);
+  }
+
+  #uno {
+    height: 100%;
+    width: 40%;
+    float: left;
+    line-height: 1.5em;
+    text-align: left;
+    display: flex;
+    content-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+  }
+
+  #dos {
+    height: 100%;
+    float: right;
+    line-height: 1.5em;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    content-align: right;
+    padding-right: 1em;
+  }
+
+  #foot {
+    padding: 0;
+    margin: 0;
+  }
 }
