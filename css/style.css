@@ -44,7 +44,6 @@ body {
 }
 
 #info-text {
-  font-family: "Helvetica", sans-serif;
   font-weight: 100;
 }
 
@@ -94,7 +93,6 @@ body {
   float: right;
   text-decoration: none;
   color: white;
-  font-family: "Helvetica", sans-serif;
   font-weight: 100;
 }
 
@@ -102,7 +100,6 @@ body {
   float: left;
   text-decoration: none;
   color: white;
-  font-family: "Helvetica", sans-serif;
   font-weight: 100;
 }
 
@@ -110,7 +107,6 @@ body {
   float: right;
   text-decoration: none;
   color: white;
-  font-family: "Helvetica", sans-serif;
   font-weight: 100;
 }
 
@@ -118,7 +114,6 @@ body {
   float: left;
   text-decoration: none;
   color: white;
-  font-family: "Helvetica", sans-serif;
   font-weight: 100;
 }
 
@@ -145,7 +140,6 @@ body {
 #apply {
   background-color: #f6f6f6;
   color: #3f3f3f;
-  font-family: "Helvetica", sans-serif;
   font-weight: 100;
   font-size: 4em;
   height: 4em;
@@ -192,7 +186,6 @@ body {
 
   #info-text2 {
     text-align: center;
-    font-family: "Helvetica", sans-serif;
     font-weight: 100;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -215,7 +208,6 @@ body {
     height: 100%;
     flex-basis: 25%;
     text-align: center;
-    font-family: "Helvetica light", sans-serif;
     font-weight: 100;
   }
 
@@ -301,7 +293,7 @@ body {
 
   #top-banner {
     background-color: none;
-    background-image: url(../images/DSC_0282.jpg);
+    background-image: url(../images/palpatineMain.png);
     margin: auto;
     width: 100%;
     background-repeat: no-repeat;
@@ -377,7 +369,6 @@ body {
     display: flex;
     content-align: center;
     vertical-align: middle;
-    justify-content: center;
     align-items: center;
     padding-left: 1em;
   }

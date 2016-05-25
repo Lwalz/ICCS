@@ -317,7 +317,6 @@ body{
 	display: flex;
 	content-align:center;
 	vertical-align: middle;
-	justify-content:center;
 	align-items: center;
 	padding-left: 1em;
 	}
@@ -352,7 +351,7 @@ body{
 		height: 2em;
 		border-color: #3f3f3f;
 		border: solid;
-		color:rgb(213, 213, 213);
+		color:rgb(47,47,47);
 		cursor: pointer;
 		width: 3em;
 		box-shadow: 2,2,2,5;
