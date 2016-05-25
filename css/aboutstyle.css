@@ -25,10 +25,12 @@ ul {
   width: 100%;
   text-align: center;
   position: static;
-  background-color: #d6aa7d;
-  color: white;
+  color: #82c0c0;
   font-size: 6em;
-  height: auto;
+  height:6em;
+  background-image: url(../images/faculty/faculty.jpg);
+  background-position: top;
+  font-weight: 700;
 }
 
 .title {
@@ -39,52 +41,65 @@ ul {
   float: left;
   width: 16.6667%;
   opacity: .6;
+  z-index: -99999;
 }
 
 .nugget:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 #oneTxt {
   display: none;
-  height: 100%;
+  height: 20em;
   font-size: .2em;
   padding: 1.5em;
+  background-color: white;
 }
 
 #twoTxt {
   display: none;
-  height: 100%;
+  height:20em;
   font-size: .2em;
   padding: 1.5em;
+  background-color: white;
+
 }
 
 #threeTxt {
   display: none;
-  height: 100%;
+  height: 20em;
   font-size: .2em;
   padding: 1.5em;
+  background-color: white;
+
 }
 
 #fourTxt {
   display: none;
-  height: 100%;
+  height: 20em;
   font-size: .2em;
   padding: 1.5em;
+  background-color: white;
+
 }
 
 #fiveTxt {
   display: none;
-  height: 100%;
+  height: 20em;
   font-size: .2em;
   padding: 1.5em;
+  background-color: white;
+
 }
 
 #sixTxt {
   display: none;
-  height: 100%;
+  height: 20em;
   font-size: .2em;
   padding: 1.5em;
+  background-color: white;
+
 }
 
 #readMoreButton {
@@ -175,7 +190,7 @@ body {
 }
 
 #apply {
-  background-color: #f6f6f6;
+  background-color: #white;
   color: #3f3f3f;
   ;
 	font-weight: 100;
@@ -183,9 +198,6 @@ body {
   height: 4em;
 }
 
-#apply:hover {
-  background-color: rgba(214,170,125,.7);
-}
 
 #applyButton {
   height: 100%;
@@ -193,6 +205,7 @@ body {
   justify-content: center;
   align-items: center;
   vertical-align: middle;
+  background-color: white;
 }
 
 #foot {
@@ -254,7 +267,6 @@ body {
   }
 
   #apply {
-    background-image: url(../images/pillars.jpg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;

@@ -99,15 +99,10 @@
 }
 
 #apply {
-  background-color: #f6f6f6;
   color: #3f3f3f;
   font-weight: 100;
   font-size: 4em;
   height: 4em;
-}
-
-#apply:hover {
-  background-color: rgba(214,170,125,.7);
 }
 
 #applyButton {
@@ -208,7 +203,6 @@ a {
   }
 
   #apply {
-    background-image: url(../images/pillars.jpg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;

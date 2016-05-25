@@ -145,9 +145,6 @@ body {
   height: 4em;
 }
 
-#apply:hover {
-  background-color: rgba(214,170,125,.7);
-}
 
 #applyButton {
   height: 100%;
@@ -177,7 +174,7 @@ body {
     color: #3f3f3f;
     float: left;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 3em;
     padding-left: 6em;
     padding-right: 6em;
     padding-top: 1em;
@@ -332,7 +329,6 @@ body {
   }
 
   #apply {
-    background-image: url(../images/pillars.jpg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -345,6 +341,7 @@ body {
     vertical-align: middle;
     justify-content: center;
     align-items: center;
+    background-color: white;
   }
 
   #applyButton {

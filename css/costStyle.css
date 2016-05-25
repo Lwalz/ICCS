@@ -1,303 +1,293 @@
-body, p, div, section, p, a, div{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-
+body, p, div, section, p, a, div {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
+
 body {
-	background-color: white;
-	height: 100%;
-	line-height: auto;
+  background-color: white;
+  height: 100%;
+  line-height: auto;
+  font-family: 'Noto Sans',sans-serif;
 }
+
 #top-banner {
-	width: 100%;
-	background-color: white;
+  width: 100%;
+  background-color: white;
 }
+
 #banner {
-	width: 100%;
+  width: 100%;
 }
-#main{
-	color: white;
-	background-color: #d6aa7d; 
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	width: 100%;
-	font-size: 4em;
-	height: 2.8em;
+
+#main {
+  color: white;
+  background-color: #d6aa7d;
+  font-weight: 100;
+  width: 100%;
+  font-size: 4em;
+  height: 2.8em;
 }
-#more{
-	display: none;
-	height: 5em;
-	width: 100%;
-	text-align: center;
-	background-color: #82c0c0;
-	vertical-align: middle;
+
+#more {
+  display: none;
+  height: 5em;
+  width: 100%;
+  text-align: center;
+  background-color: #82c0c0;
+  vertical-align: middle;
 }
-#costContain{
-	display: flex;
-	vertical-align: middle;
-	justify-content: center;
-	align-items:center;
-	vertical-align: middle;
-	height: 100%;
+
+#costContain {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  height: 100%;
 }
-.others:hover{
-	background-color: white;
-	color: #d6aa7d;
+
+.others:hover {
+  background-color: white;
+  color: #d6aa7d;
 }
+
 .others {
-	width: 25%;
-	float: left;
-	height: 100%;
-	display: inline-block;
-	font-size: 1.5em;
-	color: white;
-	font-family: "helvettica" , sans-serif;
-	font-weight: 100%;
-	display: flex;
-	justify-content:center;
-	align-items:center;
-	vertical-align: middle;
-}
-#mission{
-	text-align: center;
-	padding: 1.5em;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	background-color: #82c0c0;
-	color: white;
-	line-height: 1.5em;
-	font-size: 2em;
+  width: 25%;
+  float: left;
+  height: 100%;
+  display: inline-block;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
 }
 
-#foot{
-	background-color: #3f3f3f;
-	color: white;
-	font-size: 1.6em;
-	width: 100%;
-	float: left;
-	height: 8em;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	display: inline-block;
-	padding-top: 0em;
-}
-#jumbo{
-	display: none;
-}
-#c{
-	width: 100%;
-	display: inline-block;
-	float: left;
-
-}
-#costbar{
-	text-align: center;
-	padding: 1.5em;
-	overflow: hidden;
-	margin-bottom: 0;
-	display: none;
-	background-color: #d6aa7d;
-
+#mission {
+  text-align: center;
+  padding: 1.5em;
+  font-weight: 100;
+  background-color: #82c0c0;
+  color: white;
+  line-height: 1.5em;
+  font-size: 2em;
 }
 
-#s{
-	display: inline-block;
-	width: 100%;
-	float: left;
-}
-#scholarshipbar {
-	display: none;
-	text-align: center;
-	padding: 1.5em;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	background-color: #d6aa7d;
-}
-#apply{
-	display: inline-block;
-	background-color: #f6f6f6;
-	color: #3f3f3f;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	font-size: 4em;
-	height: 4em;
-	width: 100%
-
-}
-#apply:hover{
-	background-color: rgba(214,170,125,.7);
-}
-#applyButton{
-	height: 100%;
-	display: flex;
-	justify-content:center;
-	align-items:center;
-	vertical-align: middle;
-
+#foot {
+  background-color: #3f3f3f;
+  color: white;
+  font-size: 1.6em;
+  width: 100%;
+  float: left;
+  height: 8em;
+  font-weight: 100;
+  display: inline-block;
+  padding-top: 0em;
 }
 
-table{
-	width: 100%;
-	font-family: "Helvetica", sans-serif;
-	font-weight: 100;
-	font-size: .6em;
-	text-align: left;
-	line-height: 2em;
-}
-th{
-	color: #3f3f3f;
-}
-tr{
-	margin-left: .8em;
-}
-tr:hover{
-	background-color: #82c0c0;
-	color: white;
-}
-a{
-	color: black;
+#jumbo {
+  display: none;
 }
 
-.nav-tabs > li > a{
-	color: white;
-	display: flex;
-	content-align:center;
-	vertical-align: middle;
-	justify-content:center;
-	align-items: center;
-	padding,margin: 0;
-	height: 3em;
-	align-self:center;
-}
-.nav-tabs>li{
-	width: 100% !important;
-
-
-
+#apply {
+  display: inline-block;
+  background-color: #f6f6f6;
+  color: #3f3f3f;
+  font-weight: 100;
+  font-size: 4em;
+  height: 4em;
+  width: 100%
 }
 
-
-
-
-@media (min-width:750px){
-	#top-banner{
-		width: 30%;
-		float: left;
-		height: 13em;
-		display: flex;
-    	align-items: center;
-
-	}
-	#jumbo{
-		display: inline-block;
-		width: 100%;
-	}
-	#main{
-		display: none;
-	}
-	#more{
-		display: inline-block;
-		background-color: white;
-		color: #82c0c0;
-		width: 70%;
-		float: left;
-		height: 13em;
-		margin: 0 auto;
-
-	}
-	.others{
-		font-size: 2em;
-		color: #82c0c0;
-		width: 25%;
-		display: flex;
-    	align-items: center;
-    	justify-content:center;
-
-	}
-	.others:hover{
-		background-color: #82c0c0;
-		color: white;
-	}
-	#uno{
-	height: 100%;
-	width: 40%;
-	float: left;
-	line-height: 1.5em;
-	text-align: left;
-	display: flex;
-	content-align:center;
-	vertical-align: middle;
-	justify-content:center;
-	align-items: center;
-	padding-left: 1em;
-	}
-	#dos{
-	height: 100%;
-	float: right;
-	line-height: 1.5em;
-	display: flex;
-	text-align: right;
-	align-items: center;
-	content-align:right;
-	padding-right: 1em;
-
-	}
-
-	table{
-		width: 100%;
-		font-family: "Helvetica", sans-serif;
-		font-weight: 100;
-		font-size: .6em;
-		text-align: left;
-		line-height: 2em;
-	}
-	th{
-		color: #3f3f3f;
-	}
-	tr{
-		margin-left: .8em;
-	}
-	tr:hover{
-		background-color: #82c0c0;
-		color: white;
-	}
-
-	a{
-		color: black;
-	}
-
-	#apply{
-		background-image: url(../images/pillars.jpg);
-		width: 100%;
-		background-size: cover;
-		background-repeat:no-repeat;
-		color: white;
-		font-size: 7em;
-		margin: 0;
-		padding: 0;
-		display: flex;
-		content-align:center;
-		vertical-align: middle;
-		justify-content:center;
-		align-items: center;
-		}
-	#applyButton{
-		height: 2em;
-		border-color: #3f3f3f;
-		border: solid;
-		color:#f6f6f6;
-		cursor: pointer;
-		width: 3em;
-	}
-	#applyButton:hover{
-		background-color: rgba(47, 47, 47, 0.5);
-	}
-	.nav-tabs>li{
-	width: 50% !important;
-	float: left !important;
-	height: auto;
+#applyButton {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
 }
 
+#applyButton:hover {
+  background-color: rgba(47, 47, 47, 0.5);
 }
 
+table {
+  width: 100%;
+  font-weight: 100;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 2em;
+}
+
+#asterisk {
+  cursor: pointer;
+  color: red;
+  background-color: transparent;
+  border: none;
+}
+
+#alertBox {
+  display: none;
+  border-radius: 15;
+  color: red;
+  position: static;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  font-size: 2em;
+}
+
+#costTable {
+  background-color: #d6aa7d;
+}
+
+th {
+  color: #3f3f3f;
+  padding-left: 2em;
+}
+
+tr:hover {
+  background-color: #82c0c0;
+  color: white;
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+.nav-tabs > li > a {
+  color: white;
+  display: flex;
+  content-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  padding,margin: 0;
+  height: 3em;
+  align-self: center;
+}
+
+.nav-tabs>li {
+  width: 100% !important;
+}
+
+@media (min-width:750px) {
+  #top-banner {
+    width: 30%;
+    float: left;
+    height: 13em;
+    display: flex;
+    align-items: center;
+  }
+
+  #jumbo {
+    display: inline-block;
+    width: 100%;
+  }
+
+  #main {
+    display: none;
+  }
+
+  #more {
+    display: inline-block;
+    background-color: white;
+    color: #82c0c0;
+    width: 70%;
+    float: left;
+    height: 13em;
+    margin: 0 auto;
+  }
+
+  .others {
+    font-size: 2em;
+    color: #82c0c0;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .others:hover {
+    background-color: #82c0c0;
+    color: white;
+  }
+
+  #uno {
+    height: 100%;
+    width: 40%;
+    float: left;
+    line-height: 1.5em;
+    text-align: left;
+    display: flex;
+    content-align: center;
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 1em;
+  }
+
+  #dos {
+    height: 100%;
+    float: right;
+    line-height: 1.5em;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    content-align: right;
+    padding-right: 1em;
+  }
+
+  table {
+    width: 100%;
+    font-weight: 100;
+    font-size: 1.4em;
+    line-height: 2em;
+  }
+
+  th {
+    color: #3f3f3f;
+    padding-left: 5em;
+  }
+
+  tr:hover {
+    background-color: #82c0c0;
+    color: white;
+  }
+
+  a {
+    color: black;
+  }
+
+  #apply {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 7em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    content-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #applyButton {
+    height: 2em;
+    border-color: #3f3f3f;
+    border: solid;
+    color: rgb(47, 47, 47);
+    cursor: pointer;
+    width: 3em;
+  }
+
+  .nav-tabs>li {
+    width: 50% !important;
+    float: left !important;
+    height: auto;
+  }
+}
