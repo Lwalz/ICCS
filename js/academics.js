@@ -14,7 +14,7 @@ $(document).ready(function(){
   // Bind the swipeHandler callback function to the swipe event on div.box
   $('#main').click(function(){
 	  $('#more').toggle('slow');
-	  });
+	  })
 
-	
+
 });
