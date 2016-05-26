@@ -10,9 +10,8 @@
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700,400" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
-
-    <script src="../js/costs.js" type="text/javascript"></script>
 </head>
 <body>
     <section id="top-banner">
@@ -49,11 +48,11 @@
             </tr>
             <tr>
                 <td>Lifetime Transcript Fee</td>
-                <td>$40<button id="asterisk" onclick=alertEm()>*</button></td>
+                <td>$40<a data-toggle="popover" data-content="Waived for Duke University applicants">†</a></td>
             </tr>
             <tr>
                 <th>Billable subtotal</th>
-                <th>$28,360</th>
+                <th>$28,360<a data-toggle="popover" data-content="Non consortium school applicants pay an additional $300.00 fee, making the billable total $28,660.00">†</a></th>
             </tr>
             <tr>
                 <td>Airfare</td>
@@ -84,9 +83,6 @@
                 <th>$32,990</th>
             </tr>
         </table>
-        <div id="alertBox">
-*Waived for Duke University applicants
-        </div>
     </section>
 
 </div>

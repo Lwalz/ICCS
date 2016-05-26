@@ -79,6 +79,10 @@ body {
   background-size: 100%;
 }
 
+a {
+  color: white;
+}
+
 .o-bar {
   color: white;
   font-size: 2.7em;
@@ -145,7 +149,6 @@ body {
   height: 4em;
 }
 
-
 #applyButton {
   height: 100%;
   display: flex;
@@ -157,7 +160,7 @@ body {
 @media (min-width:750px) {
 
   body {
-    background-color: #3f3f3f;
+    background-color: white;
   }
 
   #carousel1 {
@@ -175,8 +178,6 @@ body {
     float: left;
     text-align: center;
     font-size: 3em;
-    padding-left: 6em;
-    padding-right: 6em;
     padding-top: 1em;
     padding-bottom: 1em;
   }
@@ -342,6 +343,48 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
+  }
+
+  .tabs {
+    width: 100%;
+    float: left;
+    background-color: rgb(47,47,47);
+  }
+
+  .tabs:active {
+    background-color: #3f3f3f;
+    opacity: 1;
+  }
+
+  a {
+    color: white;
+  }
+
+  #company {
+    background-color: white;
+    height: auto;
+  }
+
+  .tablet {
+    width: 50%;
+    height: 3em;
+    float: left;
+    background-color: rgba(47,47,47,1);
+  }
+
+  #tab2Content {
+    display: block;
+  }
+
+  h1 {
+    width: 100%;
+    float: left;
+    height: 100%;
+  }
+
+  .column {
+    width: 50%;
+    float: left;
   }
 
   #applyButton {

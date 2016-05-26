@@ -1,362 +1,389 @@
-body, p, div, section, p, a, img{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	color: white;
-	font-family: 'Noto Sans', sans-serif;
+body, p, div, section, p, a, img {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
 }
+
 * {
-	margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-	background-color: #82c0c0;
-	height: 100%;
+  background-color: #82c0c0;
+  height: 100%;
 }
+
 a:-webkit-any-link {
-	color:white;
+  color: white;
 }
 
-.others:hover{
-	background-color: white;
-	color: #d6aa7d;
+.others:hover {
+  background-color: white;
+  color: #d6aa7d;
 }
+
 .others {
-	width: 25%;
-	float: left;
-	height: 100%;
-	font-size: 1.5em;
-	color: white;
-	font-weight: 100;
-	display: flex;
-	align-items: center;
-	justify-content:center;
-	align-content: center;
+  width: 25%;
+  float: left;
+  height: 100%;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
-#coursetitle{
-	width: 100%;
-	overflow:auto !important;
-}
-#wsatitle{
-	width: 100%;
-}
-#more{
-	display: none;
-	height: 5em;
-	width: 100%;
-	text-align: center;
-	background-color: #82c0c0;
-	vertical-align: middle;
+#coursetitle {
+  width: 100%;
+  overflow: auto !important;
 }
 
-#banner{
-	width: 100%;
-
+#wsatitle {
+  width: 100%;
 }
 
-#main{
-	color: white;
-	background-color: #d6aa7d;
-	font-weight: 100;
-	width: 100%;
-	font-size: 4em;
-	height: 2.8em;
+#more {
+  display: none;
+  height: 5em;
+  width: 100%;
+  text-align: center;
+  background-color: #82c0c0;
+  vertical-align: middle;
 }
 
-.o-bar{
-	display:none;
-}
-#academicsContain{
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content:center;
-	align-content: center;
-
-
-
+#banner {
+  width: 100%;
 }
 
-#info{
-	text-align: center;
-	padding: 1.5em;
-	font-weight: 100;
-	background-color: #82c0c0;
+#main {
+  color: white;
+  background-color: #d6aa7d;
+  font-weight: 100;
+  width: 100%;
+  font-size: 4em;
+  height: 2.8em;
 }
 
-p{
-	text-decoration: none;
-	color: white;
-	font-weight: 100;
-	background-color: #d6aa7d;
-	padding-left: 2em;
-	padding-right: 2em;
-
-}
-#foot{
-	background-color: #3f3f3f;
-	color: white;
-	font-size: 1.6em;
-	width: 100%;
-	float: left;
-	height: 8em;
-	font-weight: 100;
-	display: inline-block;
-	padding-top: 0em;
+.o-bar {
+  display: none;
 }
 
-#c{
-	width: 100%;
-	display: block;
-	float: left;
-	overflow:auto !important;
-
-}
-#coursebar{
-	text-align: center;
-	font-size: 1.15em;
-	padding: 1.5em;
-	margin-bottom: 0;
-	display: none;
-	background-color: #d6aa7d;
-	overflow:auto !important;
-
+#academicsContain {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
-#s{
-	display: inline-block;
-	width: 100%;
-	float: left;
-	overflow:auto !important;
+#info {
+  text-align: center;
+  padding: 1.5em;
+  font-weight: 100;
+  background-color: #82c0c0;
 }
+
+p {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  background-color: #d6aa7d;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#foot {
+  background-color: #3f3f3f;
+  color: white;
+  font-size: 1.6em;
+  width: 100%;
+  float: left;
+  height: 8em;
+  font-weight: 100;
+  display: inline-block;
+  padding-top: 0em;
+}
+
+#c {
+  width: 100%;
+  display: block;
+  float: left;
+  overflow: auto !important;
+}
+
+#coursebar {
+  text-align: center;
+  font-size: 1.15em;
+  padding: 1.5em;
+  margin-bottom: 0;
+  display: none;
+  background-color: #d6aa7d;
+  overflow: auto !important;
+}
+
+#s {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  overflow: auto !important;
+}
+
 #wsabar {
-	display: none;
-	text-align: center;
-	padding: 1.5em;
-	font-weight: 100;
-	font-size: 1.15em;
-	background-color: #d6aa7d;
+  display: none;
+  text-align: center;
+  padding: 1.5em;
+  font-weight: 100;
+  font-size: 1.15em;
+  background-color: #d6aa7d;
 }
 
-
-
-
-#menu{
-	display: none;
-}
-#bannerLogo{
-	display:none;
-}
-#logo{
-	display:none;
-}
-#jumbo{
-	display:none;
-}
-#info2{
-	display:none;
-}
-#tabz{
-	display:none;
+#menu {
+  display: none;
 }
 
-#apply{
-	display: inline-block;
-	background-color: white;
-	color: #3f3f3f;
-	font-weight: 100;
-	font-size: 4em;
-	height: 4em;
-	width: 100%;
-
+#bannerLogo {
+  display: none;
 }
 
-#applyButton{
-	height: 100%;
-	display: flex;
-	justify-content:center;
-	align-items:center;
-	vertical-align: middle;
-
+#logo {
+  display: none;
 }
 
-
-@media (min-width: 750px){
-#main{
-	display: none;
-}
-#tabz{
-	display:inline-block;
-	width:100%;
-}
-#carousel1 {
-	display: none;
+#jumbo {
+  display: none;
 }
 
-body{
-	background-color: #82c0c0;
+#info2 {
+  display: none;
 }
 
-#info{
-	display: none;
-}
-#info2{
-	display:block;
-	text-align:center;
-	color: black;
-	text-align: center;
-	padding: 4em;
-	font-weight: 100;
-	font-size: 1.5em;
-
-
+#tabz {
+  display: none;
 }
 
-#menu{
-	display: flex;
-	align-items: center;
-	align-content: center;
-	justify-content:center;
-	width: 100%;
-	height: 15em;
-	padding: 0;
-	margin: 0;
-	background-color: #82c0c0;
-}
-#menu>a>img{
-	width:80%;
-	display:block;
-	padding-left:1em;
-}
-#top-banner{
-	width: 30%;
-	float: left;
-	height: 13em;
-	display: flex;
-	align-items: center;
-	background-color: #82c0c0;
+#apply {
+  display: inline-block;
+  background-color: white;
+  color: #3f3f3f;
+  font-weight: 100;
+  font-size: 4em;
+  height: 4em;
+  width: 100%;
 }
 
-.others{
-	font-size: 2em;
-	color: white;
-	width: 25%;
-	display: flex;
-	align-items: center;
-	justify-content:center;
-
-}
-.others:hover{
-	background-color: white;
-	color: #82c0c0;
+.tab-content {
+  line-height: inherit !important;
+  padding: 4em;
 }
 
-#more{
-	display:inline-block;
-	width: 70%;
-	float:left;
-	height:13em;
+#applyButton {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
 }
 
-#banner{
-	display: none;
-	width:50%;
-	float:left;
-	background-color:#82c0c0;
-}
-#bannerLogo{
+@media (min-width: 750px) {
+  #main {
+    display: none;
+  }
 
+  #tabz {
+    display: inline-block;
     width: 100%;
-    height:auto;
-}
-#logo{
-	width:100%;
-	display:inline-block;
-}
-#c{
-	width:50%;
-	float:left;
-	padding-top:10%;
-	display:none;
+  }
 
-}
-#s{
-	width:50%;
-	float:left;
-	display:none;
-}
-#jumbo{
-	display:block;
-	width:100%;
-	overflow: hidden;
-}
-#coursebar{
-	display:none;
-	width:100%;
-}
-#wsabar{
-	display:none;
-	float:left;
-	width:50%;
-}
-#coursebar>p{
-	display:none;
-}
-#wsabar>p{
-	display:none;
-	}
+  #carousel1 {
+    display: none;
+  }
 
-	#uno{
-	height: 100%;
-	width: 40%;
-	float: left;
-	line-height: 1.5em;
-	text-align: left;
-	display: flex;
-	content-align:center;
-	vertical-align: middle;
-	align-items: center;
-	padding-left: 1em;
-	}
-	#dos{
-	height: 100%;
-	float: right;
-	line-height: 1.5em;
-	display: flex;
-	text-align: right;
-	align-items: center;
-	content-align:right;
-	padding-right: 1em;
+  body {
+    background-color: #82c0c0;
+  }
 
-	}
+  #info {
+    display: none;
+  }
 
-	#apply{
-		width: 100%;
-		background-size: cover;
-		background-repeat:no-repeat;
-		color: white;
-		font-size: 7em;
-		margin: 0;
-		padding: 0;
-		display: flex;
-		content-align:center;
-		vertical-align: middle;
-		justify-content:center;
-		align-items: center;
-		}
-	#applyButton{
-		height: 2em;
-		border-color: #3f3f3f;
-		border: solid;
-		color:rgb(47,47,47);
-		cursor: pointer;
-		width: 3em;
-		box-shadow: 2,2,2,5;
-	}
-	#applyButton:hover{
-		background-color: rgba(47, 47, 47, 0.5);
-	}
-	a{
-		min-height: 3em;
-	}
-	}
+  #info2 {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 4em;
+    font-weight: 100;
+    font-size: 1.5em;
+  }
+
+  p {
+    text-align: center;
+    padding: 4em;
+    font-weight: 100;
+    font-size: 1.5em;
+  }
+
+  #menu {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 15em;
+    padding: 0;
+    margin: 0;
+    background-color: #82c0c0;
+  }
+
+  #menu>a>img {
+    width: 80%;
+    display: block;
+    padding-left: 1em;
+  }
+
+  #top-banner {
+    width: 30%;
+    float: left;
+    height: 13em;
+    display: flex;
+    align-items: center;
+    background-color: #82c0c0;
+  }
+
+  .others {
+    font-size: 2em;
+    color: white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .others:hover {
+    background-color: white;
+    color: #82c0c0;
+  }
+
+  #more {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    height: 13em;
+  }
+
+  #banner {
+    display: none;
+    width: 50%;
+    float: left;
+    background-color: #82c0c0;
+  }
+
+  #bannerLogo {
+    width: 100%;
+    height: auto;
+  }
+
+  #logo {
+    width: 100%;
+    display: inline-block;
+  }
+
+  #c {
+    width: 50%;
+    float: left;
+    padding-top: 10%;
+    display: none;
+  }
+
+  #s {
+    width: 50%;
+    float: left;
+    display: none;
+  }
+
+  #jumbo {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #coursebar {
+    display: none;
+    width: 100%;
+  }
+
+  #wsabar {
+    display: none;
+    float: left;
+    width: 50%;
+  }
+
+  #coursebar>p {
+    display: none;
+  }
+
+  #wsabar>p {
+    display: none;
+  }
+
+  #uno {
+    height: 100%;
+    width: 40%;
+    float: left;
+    line-height: 1.5em;
+    text-align: left;
+    display: flex;
+    content-align: center;
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 1em;
+  }
+
+  #dos {
+    height: 100%;
+    float: right;
+    line-height: 1.5em;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    content-align: right;
+    padding-right: 1em;
+  }
+
+  #apply {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 7em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    content-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #applyButton {
+    height: 2em;
+    border-color: #3f3f3f;
+    border: solid;
+    color: rgb(47,47,47);
+    cursor: pointer;
+    width: 3em;
+    box-shadow: 2,2,2,5;
+  }
+
+  #applyButton:hover {
+    background-color: rgba(47, 47, 47, 0.5);
+  }
+
+  a {
+    min-height: 3em;
+  }
+}

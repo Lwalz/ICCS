@@ -1,7 +1,3 @@
 $(document).ready(function() {
-  var asterisk = $('#asterisk')
-  var alertBox = $('#alertBox')
+  $('[data-toggle="popover"]').popover()
 })
-function alertEm() {
-  $('#alertBox').toggle()
-}

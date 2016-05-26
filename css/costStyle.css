@@ -122,26 +122,12 @@ table {
   padding: 2em;
 }
 
-#asterisk {
-  cursor: pointer;
-  color: red;
-  background-color: transparent;
-  border: none;
-}
-
-#alertBox {
-  display: none;
-  border-radius: 15;
-  color: red;
-  position: static;
-  display: flex;
-  justify-content: center;
-  vertical-align: middle;
-  font-size: 2em;
-}
-
 #costTable {
   background-color: #d6aa7d;
+}
+
+.popover-content {
+  color: black;
 }
 
 th {
@@ -246,11 +232,11 @@ a {
     font-weight: 100;
     font-size: 1.4em;
     line-height: 2em;
+    text-align: center;
   }
 
   th {
     color: #3f3f3f;
-    padding-left: 5em;
   }
 
   tr:hover {
@@ -259,7 +245,8 @@ a {
   }
 
   a {
-    color: black;
+    color: red;
+    cursor: pointer;
   }
 
   #apply {
