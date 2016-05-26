@@ -10,32 +10,31 @@ $(document).ready(function() {
 
 	$('#one').click(function() {
   $('#oneTxt').toggle('slow');
-		$(this).siblings().toggle();
+		$(this).siblings().toggle('slow');
 })
 
 	$('#two').click(function() {
   $('#twoTxt').toggle('slow');
-		$(this).siblings().toggle();
+		$(this).siblings().toggle('slow');
 })
 
 	$('#three').click(function() {
   $('#threeTxt').toggle('slow');
-		$(this).siblings().toggle();
+		$(this).siblings().toggle('slow');
 })
 
 	$('#four').click(function() {
   $('#fourTxt').toggle('slow');
-		$(this).siblings().toggle();
+		$(this).siblings().toggle('slow');
 })
 
 	$('#five').click(function() {
   $('#fiveTxt').toggle('slow');
-		$(this).siblings().toggle();
+		$(this).siblings().toggle('slow');
 })
 
 	$('#six').click(function() {
   $('#sixTxt').toggle('slow');
-		$(this).siblings().toggle();
+		$(this).siblings().toggle('slow');
 })
-	  $('[data-toggle="popover"]').popover()
 })

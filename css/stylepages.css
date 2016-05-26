@@ -11,6 +11,21 @@ body, p, div, section, p, a, img {
   padding: 0;
 }
 
+#email {
+  float: right;
+  line-height: 1.5em;
+  padding-right: 1em;
+  display: flex;
+  align-items: center;
+  font-size: 1.6em;
+  height: 100%;
+  color: blue;
+}
+
+#fb>img{
+  width: 10%;
+}
+
 body {
   background-color: #82c0c0;
   height: 100%;

@@ -15,6 +15,10 @@
   width: 100%;
 }
 
+
+#fb>img{
+  width: 10%;
+}
 .jumbotron>p {
   padding: 1.5em;
 }
@@ -22,6 +26,15 @@
 #jumbo {
   display: none;
   padding: 2em;
+}
+#email{
+  float: right;
+  line-height: 1.5em;
+  padding-right: 1em;
+  display: flex;
+  align-items: center;
+  font-size: 1.6em;
+  height: 100%;
 }
 
 p {
@@ -80,7 +93,7 @@ p {
 #foot {
   background-color: #3f3f3f;
   color: white;
-  font-size: .8em;
+  font-size: 1.6em;
   width: 100%;
   float: left;
   position: relative;
@@ -236,6 +249,8 @@ a {
 
   #jumbo {
     width: 100%;
+    display: inline-block;
+    padding: 0;
   }
 
   #applyButton {
