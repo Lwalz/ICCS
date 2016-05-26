@@ -251,6 +251,7 @@ a {
 
   th {
     color: #3f3f3f;
+    text-align: center !important;
   }
 
   tr:hover {
