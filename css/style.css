@@ -208,6 +208,10 @@ iframe {
     font-size: 1em;
   }
 
+  a{
+    color: white;
+  }
+
   #menu {
     display: flex;
     justify-content: center;
