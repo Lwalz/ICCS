@@ -3,6 +3,9 @@
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
 }
+body{
+  font-size: 1.8em !important;
+}
 
 #self {
   border: solid;
@@ -278,5 +281,7 @@ a {
   .jumbotron>h1 {
     color: white;
   }
-
+body{
+  font-size: 1.8em;
+}
 }
