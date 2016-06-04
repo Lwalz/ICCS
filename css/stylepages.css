@@ -9,6 +9,8 @@ body, p, div, section, p, a, img {
 * {
   margin: 0;
   padding: 0;
+  font-size: 1.2em;
+
 }
 
 #email {
@@ -17,13 +19,13 @@ body, p, div, section, p, a, img {
   padding-right: 1em;
   display: flex;
   align-items: center;
-  font-size: 1.6em;
+  font-size: 1.5em;
   height: 100%;
-  color: blue;
+  color: white;
 }
 
 #fb>img{
-  width: 10%;
+  width: 7%;
 }
 
 body {
@@ -44,7 +46,6 @@ a:-webkit-any-link {
   width: 25%;
   float: left;
   height: 100%;
-  font-size: 1.5em;
   color: white;
   font-weight: 100;
   display: flex;
@@ -106,7 +107,6 @@ a:-webkit-any-link {
 p {
   text-decoration: none;
   color: white;
-  font-weight: 100;
   background-color: #d6aa7d;
   padding-left: 2em;
   padding-right: 2em;
@@ -115,7 +115,6 @@ p {
 #foot {
   background-color: #3f3f3f;
   color: white;
-  font-size: 1.6em;
   width: 100%;
   float: left;
   height: 8em;
@@ -133,7 +132,6 @@ p {
 
 #coursebar {
   text-align: center;
-  font-size: 1.15em;
   padding: 1.5em;
   margin-bottom: 0;
   display: none;
@@ -153,7 +151,6 @@ p {
   text-align: center;
   padding: 1.5em;
   font-weight: 100;
-  font-size: 1.15em;
   background-color: #d6aa7d;
 }
 
@@ -231,15 +228,10 @@ p {
     text-align: center;
     color: black;
     padding: 4em;
-    font-weight: 100;
-    font-size: 1.5em;
   }
 
   p {
     text-align: center;
-    padding: 4em;
-    font-weight: 100;
-    font-size: 1.5em;
   }
 
   #menu {
@@ -270,7 +262,6 @@ p {
   }
 
   .others {
-    font-size: 2em;
     color: white;
     width: 25%;
     display: flex;
@@ -400,5 +391,12 @@ p {
 
   a {
     min-height: 3em;
+    color: white;
+  }
+  .nav-tabs{
+    font-size: 1.4em !important;
+  }
+  .tab-content{
+    font-size: 1.3em !important;
   }
 }
