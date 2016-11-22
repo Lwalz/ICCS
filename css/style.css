@@ -1,6 +1,7 @@
 body, div, section, p, head, a {
   margin: 0;
   padding: 0;
+  color:inherit;
 }
 
 * {
@@ -80,10 +81,6 @@ body {
 }
 
 
-#fb>img{
-  width: 15%;
-}
-
 .o-bar {
   color: white;
   font-size: 2.7em;
@@ -92,16 +89,6 @@ body {
   align-items: center;
   justify-content: center;
   vertical-align: middle;
-}
-
-#email {
-  float: right;
-  line-height: 1.5em;
-  padding-right: 1em;
-  display: flex;
-  align-items: center;
-  font-size: 1.6em;
-  height: 100%;
 }
 
 iframe {
@@ -194,10 +181,6 @@ iframe {
     font-weight: 100;
     padding-top: 1em;
     padding-bottom: 2em;  }
-
-  a{
-    color:white;
-  }
 
   #menu {
     display: flex;
@@ -312,10 +295,6 @@ iframe {
     justify-content: center;
   }
 
-  li>a {
-    color: white;
-  }
-
   #banner {
     display: flex;
     width: 65%;
@@ -365,6 +344,10 @@ iframe {
     background-color: rgb(47,47,47);
   }
 
+  .tab-content{
+    color:white;
+  }
+
   .tabs:active {
     background-color: #3f3f3f;
     opacity: 1;
@@ -410,32 +393,6 @@ iframe {
     background-color: rgba(47, 47, 47, 0.5);
   }
 
-  #uno {
-    height: 100%;
-    width: 40%;
-    float: left;
-    line-height: 1.5em;
-    text-align: left;
-    display: flex;
-    content-align: center;
-    vertical-align: middle;
-    align-items: center;
-    padding-left: 1em;
-  }
 
-  #dos {
-    height: 100%;
-    float: right;
-    line-height: 1.5em;
-    display: flex;
-    text-align: right;
-    align-items: center;
-    content-align: right;
-    padding-right: 1em;
-  }
 
-  #foot {
-    padding: 0;
-    margin: 0;
-  }
 }
